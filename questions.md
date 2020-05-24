@@ -1,9 +1,11 @@
 ==========================================================================================
+
 "question_isim": "->",
 "quest": "Herkese merhaba, Projemiz için kısa bir anketimiz var, doldurabilir misiniz? : 
 [Link](https://forms.gle/37cKLdoENGVNKbue9) - Teşekkürler
 "comment": [
 ]
+
 ==========================================================================================
 "question_isim": "->",
 "quest": "1 aylık eğlenceli ve öğretici serüvenin ardından şöyle bir yazı yazmaya karar verdim umarım hepimiz için faydalı bir ay olmuştur. Değerli yorumlarınızı bekliyorum :) [Link](https://medium.com/@emrekarakoc36/yeni-başlayanlar-i̇çin-makine-öğrenimi-projeleri-76f940da6bd8)
