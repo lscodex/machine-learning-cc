@@ -1,17 +1,15 @@
 function get_more_post(contents, ){
     var more_post =  contents.getElementsByClassName('ps-stream-post-more');
     for (var i = 0; i < more_post.length;i++){
-        //count_get_more.push(more_post[i]);
+        // avoid to new a tab for read more..
         more_post[i].href = '#';
         more_post[i].click();
     }
+    console.log("Done");
 }
 
-function main() {
-   
+function main(){
     var x = document.querySelector('[class="ps-stream-wrapper"]').querySelectorAll('[id="ps-activitystream"]');
-
-
     for (var i = 0; i < x.length; i++) {
         var item = x[i];
         var y = item.getElementsByClassName("ps-stream");
@@ -24,3 +22,4 @@ function main() {
 
     }
 }
+main();
