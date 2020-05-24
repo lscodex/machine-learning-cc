@@ -1,5 +1,5 @@
 # Deep Learning Türkiye ekibinin, Google Machine Learning Crash Course eğitimine mentörlük sağladığı grup soruları ve cevapları
-- question.md dosyasında hepsini bulabilirsiniz
+- question.txt dosyasında hepsini bulabilirsiniz
 - soranların isim ve soyisimleri silinmiştir
 - mail adresleri silinmiştir.
 

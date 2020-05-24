@@ -2,8 +2,7 @@
 
 "question_isim": "->",
 "quest": "Herkese merhaba, Projemiz için kısa bir anketimiz var, doldurabilir misiniz? 
-
-[Link](https://forms.gle/37cKLdoENGVNKbue9) - Teşekkürler
+https://forms.gle/37cKLdoENGVNKbue9 - Teşekkürler
 "comment": [
 ]
 ====================================================================================
