@@ -28,7 +28,7 @@
 Not: Sadece Global AI Hub sitesi için geçerlidir. 
 
 -  Javascript source kodu eklenmiştir. Merak edenler iyice araştırabilir.
-- inpect element "kaynağı görüntüle" alanına girerek aşağıdaki kaynakları sırası ile kopyalıyıp yapıştırabilirsiniz. 
+- inspect element "öğeyi düzenle" alanına girerek console sekmesine aşağıdaki kaynakları sırası ile kopyalıyıp yapıştırabilirsiniz. 
 1. got_to_bottom.js yapısı sayfanın aşağısına inmeyi sağlayacaktır. (Kendisi bunu gerçekleştiriyor)
 2. get_more_post.js yapısı ile bütün "Read more" alanını görebiliryoruz. (Yalnız üç tanesi başka sekmede olduğu için dahil edilmedi !)
 3. get_hidden_comments.js yapısı bütün yorumları görmemizi sağlar.
