@@ -1,5 +1,5 @@
 # Deep Learning Türkiye ekibinin, Google Machine Learning Crash Course eğitimine mentörlük sağladığı grup soruları ve cevapları
-- question.txt dosyasında hepsini bulabilirsiniz
+- question.md dosyasında hepsini bulabilirsiniz
 - soranların isim ve soyisimleri silinmiştir
 - mail adresleri silinmiştir.
 
@@ -13,7 +13,7 @@
 
 ## Eklenecekler
 - resimler ve bağlantılar düzenlenecek
-- yazı gruplarında 'div' 'br' karakterleri düzeltilecektir.
+- yazı gruplarında div br karakterleri düzeltilecektir.
 - Google Machine Learning Crash Course türkçe olarak eklenecektir.
 
 
@@ -25,13 +25,12 @@
 
 ## Ek 
 Not: Sadece Global AI Hub sitesi için geçerlidir. 
+
 -  Javascript source kodu eklenmiştir. Merak edenler iyice araştırabilir.
 - inpect element "kaynağı görüntüle" alanına girerek aşağıdaki kaynakları sırası ile kopyalıyıp yapıştırabilirsiniz. 
-
 1. got_to_bottom.js yapısı sayfanın aşağısına inmeyi sağlayacaktır. (Kendisi bunu gerçekleştiriyor)
 2. get_more_post.js yapısı ile bütün "Read more" alanını görebiliryoruz. (Yalnız üç tanesi başka sekmede olduğu için dahil edilmedi !)
 3. get_hidden_comments.js yapısı bütün yorumları görmemizi sağlar.
 4. main.js yapısı ise bütün istenilenleri txt formatında geri döndürüp kaydedecektir.
 
 Not: get_hidden_comments.js' de setInterval kullanılmadı. Kopyala ve Yapıştır mantığında bıraktım. Bir kaç kere kopyalıp yapıştırma işlemi uygulanabilir !
-
