@@ -15,6 +15,7 @@
 - resimler ve bağlantılar düzenlenecek
 - yazı gruplarında div br karakterleri düzeltilecektir.
 - Google Machine Learning Crash Course türkçe olarak eklenecektir.
+- Read more öncesi yarıda kesilen soru Read more sonrası tamamen yeniden yazılmış (düzeltilecek)
 
 
 # Teşekkür
