@@ -13,11 +13,11 @@
 
 ## Eklenecekler
 - resimler ve bağlantılar düzenlenecek
-- yazı gruplarında "<div>" "<br>" karakterleri düzeltilecektir.
+- yazı gruplarında '<div>' '<br>' karakterleri düzeltilecektir.
 - Google Machine Learning Crash Course türkçe olarak eklenecektir.
 
 
-# Teşekkür
+# Teşekkür
 - Deep Learning Türkiye ekibine binlerce kez 
 - Google Developers
 - Global AI hub
