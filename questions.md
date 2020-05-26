@@ -1,6 +1,6 @@
 ## soru
 
-> quest": "1 aylık eğlenceli ve öğretici serüvenin ardından şöyle bir yazı yazmaya karar verdim umarım hepimiz için faydalı bir ay olmuştur. Değerli yorumlarınızı bekliyorum :) Link](https://medium.com/@emrekarakoc36/yeni-başlayanlar-i̇çin-makine-öğrenimi-projeleri-76f940da6bd8)
+> quest": "1 aylık eğlenceli ve öğretici serüvenin ardından şöyle bir yazı yazmaya karar verdim umarım hepimiz için faydalı bir ay olmuştur. Değerli yorumlarınızı bekliyorum :) [Link](https://medium.com/@emrekarakoc36/yeni-başlayanlar-i̇çin-makine-öğrenimi-projeleri-76f940da6bd8)
 
 > comments: 
 
