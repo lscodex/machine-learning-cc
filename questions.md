@@ -1,3 +1,656 @@
+## soru
+
+> quest": "1 aylık eğlenceli ve öğretici serüvenin ardından şöyle bir yazı yazmaya karar verdim umarım hepimiz için faydalı bir ay olmuştur. Değerli yorumlarınızı bekliyorum :) Link](https://medium.com/@emrekarakoc36/yeni-başlayanlar-i̇çin-makine-öğrenimi-projeleri-76f940da6bd8)
+
+> comments: 
+
+1. ->  Kesinlikle çok faydalı bir yazı olmuş bence, işin pratiğine başlamak isteyenler için nerden başlanacağına (genelde veri seti bulmak da bu sürecin içinde) birebir 🙂 Tebrik ederim, yazıların devamını bekliyorum 🙂."
+
+2. -> ->  teşekkürler ederim fethi 🙂 sayende de birçok şey öğrendik eksik olma🙂.",
+3. ->  Başarılı bir çalışma olmuş eline sağlık 🙂 güncellemek ister misin bilmiyorum ancak:Sınıfılandırma çalışmasında bir klasik olan Titanik'i ve Regresyon çalıması için Boston House Prices'ı da dahil edebilirsin istersen :))İyi çalışmalar 🙂.",
+4. -> ->  hali hazırda kendi çalıştıklarımla bir yazı yazmak istedim söylediklerine en kısa zamanda bakıcam yorumun için çok teşekkür ederim 🙂.",
+5. -> Güzel fikir belki herkesin desteğiyle daha da büyüyebilir 🙂 belki faydası olur ilgilenenlere diye ben de önceden yazidigim bir yazıyı paylaşmak isterim sorun olmazsa .Makina öğrenmesi ile EEG sinyalleri den epilepsi hastalığı tahmini [EEG Sinyallerinden Makine Öğrenmesi ile Epilepsi Hastalığı Tespiti](https://medium.com/kodluyoruz/eeg-sinyallerinden-makine-%C3%B6%C4%9Frenmesi-ile-epilepsi-hastal%C4%B1%C4%9F%C4%B1-tespiti-542aa61e2337) 
+
+## soru
+
+> quest": "Merhabalar, öncelikle emeği geçen herkese çok teşekkürler.  Final sınavı ile ilgili olarak bir sorum olacak. 17. soruda \"classifier that trains to 99% accuracy or above\" geçiyor ama if koşul yapısı içerisinde \"if(logs.get('accuracy')&gt;0.99): \" denmiş. &gt;=0.99 olması gerekmiyor mu? Ben bu şekilde olması gerektiğini düşündüğüm için diğer şıklara bakmadan #1 olarak işaretledim.",
+
+> comments: 
+
+1. -> ben altı okuyamadan 2 dedim çünkü if satırının altında girinti olması gerekirdi diye tabiki yanlış çıktı 🙂.
+
+2. -> -> bu dediğinizi önce ben de düşündüm ta ki en alttaki epoch=12 yi görene kadar ,bu noktada da şöyle düşündüm burada syntax hatasından ziyade semantic hata istiyorlar bizden ve o soruda da 10 epochdan fazla olmasın tarzı bir bilgi vardı o yüzden 4. Şıkkı seçtim sonradan 🙂.
+
+3. ->  -> Evet. Şu an fark ettim, haklısınız. #2 de yanlış.
+
+4. ->  Merhaba, hayır,bende aynı hatayı yaptım ya hep karıştırırm, " veya " ifadesi olduğu için bu şekilde oluyor. " ve " olmuş olsaydı o zaman >= kullanırdık. Diye düşünüyorum.
+
+5. ->  ->  Bildiğim kadarıyla o şekilde olmuyor. Eğer \"veya\" kullanılmışsa \"veya\" ile bağlanmış koşullardan herhangi birinin sağlanmış olması sonucun doğru olmasını sağlar fakat \"ve\" kullanıldıysa \"ve\" ile bağlanmış koşulların tümünün doğru olması bir gerekliliktir. Bakınız Boolean Algebra: [Link](https://medium.com/i-math/intro-to-truth-tables-boolean-algebra-73b331dd9b94)"
+
+ 6. ->  ->  bende işte sürekli karıştırırım bunları( python üzerinde sadece) o yüzden hataya düşerim sorgularım ama sizde şunu bi inceleyin isterseniz [Link](https://charon.me/posts/tf1)  örneğin aynısı bu şekilde yapılmış bu durumda bizim final sınavındaki soruya göre girdide sıkıntı var ve epoch 12 hatası var1. Introduction to TensorFlow for AI, ML, and DLcharon.meA new programming paradigm Traditional Programming Paradigm V.S. Machine Learning Paradigm V.S. ML is all about a computer learning patterns that distinguish things E.g. X = -1, 0, 1, 2, 3, 4 Y = -3, -1, 1, 3, 5, 7 What is the pattern between them? Answer: Y = 2X - 1 Code: model =…."
+
+7. ->  ->  Bence bu sadece düz bir if statement ve \"=\" koşulu olmadığı sürece 99% accuracy'de koşul sağlanmamış olacak.Aynı hatanın farklı bir websitesinde yapılmış olması hatanın doğru olduğunu ispatlamaz diye düşünüyorum.
+
+8. ->  ->  birden fazla sitede cevabı böyle ve bu operatörlerin mantıksal karşıtlıklarıda var ama burda oda değil, onu geçtim şöyle düşünüyorum bu soruyu mesela 18 yaş ve üstü ehliyet alabilir bu durumda iki koşuluda sağlamak gerekiyor >= kullanmamız lazım, cevapları merakla bekliyorum bende.
+9. ->  Ben de 3 numaradan yana kullanmıştım tercihimi, sonra benim de gözüm 2'ye kaydı girinti olması gerekirdi diye ama doğru cevap 3 değilmiş. Yanlış diyen var demek ki 1 ve 2 de değil. Neden 4 acaba doğru yapan biri bizi aydınlatabilir mi?
+
+ 10. -> ->  En fazla 10 epoch yapılmasını istemişti soruda, ama kodda 12 epoch koşturulmuş. 2 weeks ago 3 people like this. Like ReportReply"
+
+11. ->  Epoch maksimum 10 olmalı diyordu soruda yani istediğimiz accuracy rate çıkmasa bile 10 epoch ile modelimiz sınırlı kalmalıydı fakat 4. soruda epoch = 12 yazılmış yanlış bundan dolayı diye düşünüyorum.
+
+12. -> Haklısınız, >= 0.99 olması gerekiyor ve if'in altında indentation eksik, bu benim de dikkatimi çekti ancak #4 daha kavramsal bir yanlış olduğu için tercih ettim."
+
+13. ->  Doğru cevaplar açıklandı mı? İkinci satırda indentation problemi var, program hata verir, hatta altındaki satır da girdili olmalı. Cevabın iki olması gerekmez mi? 
+
+14. ->  bence bu soruda hangisi doğruydu diye sorulmalıydı. #1 için = sembolü yok , #2 için if'e girmese hata alacağız #4 zaten epoch 10 dan fazla. Ben 4 yapmıştım fakat üzerine gerçekten düşündüm en açık yanlış bu geldi bir ara soru yanlış mı sorulmuş diye #3'ü bile işaretlemeyi düşündüm. (Yanlış düşünüyorsam lütfen düzeltin.)"
+
+15. ->  ->  Ne yazık ki, if içerisine girmese bile yazdırma durumu söz konusu değil, ilgili fonksiyon tetiklendiği gibi IndentationError verecektir. Python da kod blokları girintiler ile belirlendiği için, #2 deki ifade python syntax'ında bir hata olarak karşılanmakta.İyi çalışmalar."
+
+16. ->  ->  evet haklısın hata alırız , düzelttim.
+
+17. ->  Benim görüşüm; \"if(logs.get('accuracy')>0.99) hatası ile epoch=12 hatası arasında bir fark yok gibi. 2si de yazım hatası ve hatalı çalışmaya sebep oluyor. 2si de traningin farklı sonlanmasına sebep olmaz mı?
+
+18. ->  Arkadaşlarıma katılıyorum, 1 ve 4 kesinlikle yanlış evet, ayrıca ne tür bir hata(semantic/syntax) olması gerektiği ile ilgili bir bilgilendirme yok soruda ve şu ifade geçiyor net bir şekilde \"When it reaches 99% or greater it should print out the string\" fakat indentation hatası sebebi ile stringi yazdırması da söz konusu değil bu sebeple sorunun iptal edilmesi veya 1 ve 2'nin de doğru kabul edilmesi gerektiğini düşünüyorum.
+
+ 19. ->  Ben de bu şekilde düşünerek #1 olan seçeneği işaretledim..",
+ 20. ->  99 'a eşit ve büyük diye metinde ifade edilirken kodda sadece 99'dan büyük olarak yazılmış. Diger taraftan ise, bu kadar kompleks bir kod bloğunda indent hatası yüzünden bir şık işaretlenmemeli. Çünkü soru çok güzeldi ama cevap bu kadar basit olmamalı 🙂
+
+ 21. ->  Merhaba -> , bence hangi cevabın daha doğru olduğunu tartışmıyoruz, birden fazla doğru cevap var ortada ifade edilmeye çalışılan şey de bu.
+
+ 22. ->  Merhaba ->  , aslında hangi cevabın daha doğru olduğu konusunda bir tespitte bulunmadım. Indent hatası gibi veya syntax hatası gibi hatalar compile yapan editor ler tarafından tespit edilebilir. Çünkü if in altında hiç kod yok. Daha kod çalışmadan evvel gerçekleşecek bir hata. bu güzel soruda böyle cevap olmamış ama haddime değil naçizane
+
+ 23. ->  Ben de #3 yaptım. activation function değişkeni tanımlanmadığı için \"tf.nn.softmax\" Normalde \"softmax\" veya \"relu\" yazmak yeterliydi. Tanımlı değişken olmazsa kullanılmamalı diyor class içinde diye #3 yaptım. Did it right? 🙂
+
+## soru 
+
+> quest": "Merhabalar,  Final sınavının ilk sorusunda bir yazım hatası olabilir mi?  İkinci şık; \"The regressor might overfit to test set if we don't use validation sets.\" Burada \"overfit to test set\" yerine \"overfit to training set\" olması gerekmiyor mu?"
+
+> comments:
+
+1. -> Merhaba Toygar,Hayır bir yazım yanlışı yok. Şöyle açıklayayım, elimizde sadece training ve test setleri olduğunu düşünelim. Modelimizi train seti ile eğitip, hem train hem de test seti için iyi bir sonuç verecek şekilde hiper parametrelerimizi ayarladık. Ancak burada modeli eğitirken elimizdeki tüm setleri kullandık, yani hem train hem de test datamızı iyi bir şekilde öğrendik. İşte bu noktada test datasına da overfit oluşabiliyor.Bunu engellemenin yolu da validation seti oluşturmak. Yukarıdaki işlemler gibi, train seti ile modeli eğitiyor, validation seti ile hiperparametrelerimizi ayarlıyoruz. Hem train hem de validation seti üzerinde tatminkar bir model kurduktan sonra modelimizi daha önce hiç görmemiş olduğu bir test seti ile test ediyoruz. Bu sayede modelimizin performansını gerçeğe yakın bir şekilde ölçmüş oluyoruz.Dolayısıyla validation seti kullanmak test datasına overfit etmeyi engelleme konusunda işe yarıyor.İyi çalışmalar.
+
+ 2. ->  Eğitim setinden elde ettiğin ağırlıkları test setindeki sonucu değerlendirerek güncelliyorsun. Yani eğitim setine test setinin sonucuna göre şekil veriyorsun. Kısacası overfit olma durumu ya validation sete ya da test setine göre olabiliyor.
+
+ 3. -> İlk haftanın quzinde de sorulmuş olan bu sorunun cevabı için yazılan açıklamayı aşağıya bırakıyorum. Umarım faydalı olur. \"Bu soruya veriye validation set eklemezsek ne olur'la baksak çok daha iyi olacak. Siz bir modelgeliştiriyorsunuz, training ve test seti ayırdınız, 100 örnekten 80'i training 20'si test. Ev fiyatlarınıtahminlemeye çalışıyorsunuz. Bir regresyon modeli train ettiniz, sonra içine test verisinden 4 odalı ve ikibanyolu bir ev koydunuz o da size bu evin fiyatının 100 bin lira olması gerektiğini söyledi, ama gerçekte oev (test verisindeki ev fiyatı kolonu) 120 bin lira, buna göre hatanıza baktınız, parametrelerinizi değiştiripyeniden train ettiniz. Zamanla kendinizi bu test verisinden aldığınız hatalara göre adapte ediyorsunuz,yani test verisine overfit ediyorsunuz. Farkettiyseniz test verisiyle hem parametreleri değiştiriyoruz hemde test ediyoruz, bu yanlış, bu yüzden validation set ekliyoruz, hataya bakıp parametre değiştirmeişlemini validation set'te yapıyoruz, ardından yeni çıkan modeli test verisiyle test ediyoruz, böylecemodelin gerçekten iyi bir performans sergileyip sergilemediğini görebiliyoruz.
+
+ 4. ->  İlk haftanın quizinde bu soruyu yanlış okumuş olmalıyım.Öyleyse burada modelin *sadece* test setine overfit olmasından bahsetmiyoruz. Ki bu zaten mümkün değil. Test setine *de* overfit olmasından bahsediyoruz. Sorunum cümleyi yanlış yorumlamamla ilgili demek ki.
+
+## soru
+
+> quest": "Merhaba, konuları tekrar ederken şu kısımı tam kavrayamadığımı fark ettim. Açıklayabilir misiniz lütfen.
+
+> comment
+
+1. -> merhaba kendim öğrendiğim kadarıyla cevap vereceğim yanlışım olabilir; Vanishing gradient için; Bu problem sadece derin ağlarda karşımıza çıkıyor oraya özel denebilir. Biz derin ağlarda ne yapıyorduk? Katmanlar arası inputtan outputa Forward propagation Outputa geldiğimizde hatamız yüksek olacağı için katmanlarda aralardaki weightleri güncellememiz lazım. Yani geri (back propagation) gelmemiz lazım. Bu ileri geri tüm epochlarda defalarca oluyor. Bu geri gelme esnasında türev alıyorduk, ancak işte tam burada vanishing problem başlıyor, aralarda activasyon fonksiyonları var, bu sigmoid olduğunda değerleri 0-1arasına indiriyordu. Biz türevi aldığımızda değer 0-1(örn 0.5) aralığında ise türevini alabiliyoruz ve güzel bir weight güncellemesi yapabiliyoruz. Ancak değer 0ya da1 e çok yakın olduğunda tekrarlayan back propagationlarda artık modelimiz çok düşük türev sonuçlarıyla weightleri cezalandıramamaya başlıyor. Böylece Vanishing gradient yani benim tabirimle model boşa kürek çekiyor ve öğrenme bir türlü gerçekleşmiyor. Bunu önlemek için aktivasyon fonksiyonunu değiştirip ReLU yapıyorlar ki + değerlerde Vanishing olmasın.
+
+### soru
+
+> quest": "Merhaba, ilgilenenler için yeni bir makale Matthews correlation coefficient (MCC) değerinin F1 score üzerine olan üstünlüğünü tartışıyor: [Link](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-6413-7)
+
+# soru
+
+> quest": "Arkadaşlar merhaba,  Aşağıda sizinle paylaştığım değerler hakkında görüşleriniz nedir ?  Teşekkür ederim"
+
+> comments: : 
+
+1. ->  F1 Score Test ve Train'de güzel bir şekilde 200 Epoch'da maximum(Test set'i Train set'den ayrı olarak aldığınızı düşünürsek gayet güzel sonuç). 200'den sonra accuracy Test'de verimsizleşiyor. Loss'da pek değişiklik olmuyor. 200 Epoch'un optimum değer, öncesinde ve sonrasında verimsiz olduğu görülüyor.
+
+# soru
+> > quest "Merhaba arkadaşlar, Genel bir tekrar yapıyorum ve özellikle kod kısmında kafama takılan bazı sorular oluyor. Öncelikle Validation ve test set bölümünde eklediğim kodda validation_set=0.2 demek training setin'den mi %20 ayır demek istiyor. Böyle ise aslında daha ilk başta Train_set, Validation_set ve test_seti ayırmak daha mantıklı olmaz mı? Veya bir fark yaratır mı?  İkincisi Train_set ve test_seti kod yazarak nasıl ayırabiliriz? Çünkü burada hazır olan train ve test setlerini kullanmış.  Yardımcı olursanız sevinirim. Teşekkürler"
+
+> comments: ": 
+
+1. -> [Link](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html) 
+scikit-learn 0.22.2 [documentation](scikit-learn.org) ve diğer [Link](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)
+
+2. ->  validation_set parametresi train datasından alır (yanlış hatırlamıyorsam listenin son elemanlarını alıyordu). bundan dolayı yukarıda yolladığım fonksiyonu iki kere kullanıp train,test,validation datasi ayarlamak daha mantıklı.
+
+3.  ->  model.fit(x_train,y_train,validation_data=(x_val, y_val))bu şekilde validation datasını verebilirsin.
+
+4. ->  x0, x1 ve x2 değişkenlerine bağlı olarak değişen y0 outputunun bulunduğu .csv olarak formatlanmış uydurma bir veri seti için aşağıdaki şekilde veriyi train ve test olarak ayırabilirsiniz. Eğer networkunuz keras ile oluşturulmuşsa fit ederken x_train, y_train verilerinden bir kısmı validation için ayırabilirsiniz. Okuduğunuz veri pandas dataframe'i yerine düz numpy array olsa bile yine bu şekilde veriyi ayırıp networkünüze bağlı olarak yine numpy array olarak kullanabilir ya da tensora çevirebilirsiniz.
+
+5. -> [Link](https://github.com/metobom/basit-cnnler-ve-keras-ile-uygulanislari) Biraz daha kafa açmak isterseniz repodaki get_data.py'ı inceleyebilirsiniz.GitHub - metobom/basit-cnnler-ve-keras-ile-uygulanislarigithub.com 
+
+6. ->  Örneğin 10000 gözlemimiz varsa slicing özelliğini kullanarak df_1[0 : 1000], df_2[1000 : 10000] uygulayarak 1000 e 9000 şeklinde ayırabiliyoruz. İlk işlem, 0. indexten başlayıp 1000. indexe kadar olanları almamızı sağlıyor. ikincisi de aynı mantık. 
+
+## soru
+
+
+> quest": "Herkese merhaba, 4 haftayı bitirdik ve son bir sınavımız kaldı, herkesi tebrik etmek istiyorum.   Benim bu alana adım atma sürecimde faydalandığım kaynakları sizlerle paylaşmak istiyorum. Özellikle yeni başlamışsanız işinize yarayacığını düşünüyorum.  Bence kursu bitirmemiz demek Machine Learning temelimizi çok daha sağlam hale getirdiğimiz anlamına geliyor. Neden mi? Bir süredir bu alanla ilgileniyorum ve projeler üzerinde çalışıp pratik yapıyorum hatta şu anda da elimde bir proje var fakat teorik açıdan sürekli eksiklikler hissediyordum ve bu kurstan sonra bu açığımın büyük oranda kapandığını farkettim. Konulara daha hakimim.  Kurs boyunca her hafta Türkçe notlar aldım, hem kağıt üzerinde hem de Jupyter Notebook üzerinde. Bunları her hafta Github repo'mda güncelledim. Notların düzenlemesini bitirdim. Sizlerle paylaşmak istiyorum. Genel hatları ile konuları hatırlatacak notlar olduklarını düşünüyorum. Son sınavda işinize yarayabilir.   Blog tutmak, online notlar almak gerçekten faydalı oluyor. Kesinlikle tavsiye ederim. Birçok kişinin faydalanabilecek olması da güzel hissettiriyor.  GitHub Repo: [Link](https://github.com/enesoriginal/ML-crash-course-notes) Son olarak, böyle bir organizasyonu bizlere sunup aynı zamanda süreç boyunca emek veren ve zaman ayırıp bizlere destek olan başta [Link](https://community.globalaihub.com/community/profile/aslii/)  -> olmak üzere tüm mentorlerimize ve arkadaşlarıma teşekkür ediyorum.   Bu bir son değil, büyük bir maceranın ilk adımını atmış bulunuyoruz.  ML kariyerinizde başarılar…   Bahsettiğim ek kaynakları yorum olarak bırakıyorum.
+
+> comments: ": 
+
+ 1. -> Youtube kanalları:StatQuest Machine Learning Playlist - Teorik açıdan çok faydalı oluyor. [Link](https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJFSentdex) Hem eğlenceli hem öğretici bir kanal [Link](https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v) Bu sitelerin Medium Bloglarını öneririm:Machine Learning Mastery [Link](https://machinelearningmastery.com/start-here/Towardsdatascience) - Veriler üzerinde hakimiyeti artıracak bir sürü makale ve daha fazlası [Link](https://towardsdatascience.com/machine-learning/homeEğitim) öncesi veriyi görmemiz ve üzerinde işlemler yapabilmemiz açısından Pandas ve Matplotlib kütüphanelerini bilmek de çok işe yarıyor.Deep Learning Türkiye'den Mert Çobanoğlu - Pandas Egzersileri [Link](https://www.youtube.com/playlist?list=PLk54I7lqQSsaV8SxQDj19JVKfE_cM-Skp)Learningwww.youtube.comMachine Learning covers a lot of topics and this can be intimidating. However, there is no reason to fear, this play list will help you trough it all, one st.
+
+
+ 2. ->  Öncelikle Enes eline sağlık. Teorik bilgileri githubta derlemen çok faydalı oldu ben ve bu alana yeni başlayanlar için. Tekrar teşekkür ederim.Bir de  [Link](https://pybilim.wordpress.com/) ilgilenler için tavsiye edebilirim özellikle kaynakça kısmından çok faydalanıyorum.
+    "PythonBilimpybilim.wordpress.comPython ile bilimsel programlama, sayısal analiz, simülasyon.
+
+ 3. -> Ellerine sağlık çok yararlı oldu fakat hafta 3ün classification konularında precision tanımlaman biraz yanlış olmuş sanırım, unutmadan güncellemeni öneririm.
+
+ 4. ->   -> Tanımın ikinci cümlesinden bahsediyorsan eğer ? evet yanlış yorumlanabilir. Onun yerine \"Çobanın dürüstlüğünü ölçüyoruz\" diyebiliriz. Teşekkür ederim.
+
+ ## soru
+
+> quest": "Easy to let this grow stale(static model) Will adapt to changes, staleness issues avoided(dynamic model)  Merhabalar. Bu cümlelerde anlatılmak istenen ne ve stale kelimesi hangi anlamda kullanılmış?
+
+> comments: ":
+
+ 1. ->  Static modelde elinizdeki sabit bir veriyle öğretiyorsunuz. Örneğin 2019 senesi İstanbul ev fiyatları veri setinizi kullanıyorsunuz. Bu veriyle eğittiğiniz sistem bir süre sonra eskiyecektir(stale). Dynamic model ile ise 2020 verilerini de kullanacağınız için, daha doğrusu sürekli veriyle besleyeceğiniz için; değişikliklere uyum sağlayacaktır.
+
+## soru
+
+> quest": "Herkese merhaba. Keras kullanarak bir model eğitiyorum.Bu eğitimden sonra ben bu eğitilmiş modeli bir uygulamada kullanmak istiyorum.Yani bu modelde öğrendiğim parametrelere göre başka bir programda sadece karar vermek istiyorum.Bunu nasıl yapabilirim? Aramam gereken şeyler neler yönlendirebilirseniz sevinirim.
+
+> comments: 
+
+ 1. ->  Merhaba, [Link](https://machinelearningmastery.com/save-load-keras-deep-learning-models)  linki size yardımcı olacaktır.İyi çalışmalar.3 weeks ago 2 people like this.
+
+ 2. -> Keras'ta eğittiğiniz modeli bir dosyaya kaydedin, kullanmak istediğiniz uygulamada bu dosyayı load edip ilgili modele tahmin yaptırabilirsiniz. Modeli kaydetme şurada anlatılıyor: [Link](https://keras.io/getting-started/faq/#how-can-i-save-a-keras-model) , Prediction yapmak istediğiniz programlama ortamına göre load ve prediction aşamaları değişiklik gösterecektir.FAQ - Keras Documentationkeras. x[Link](https://keras.io/getting-started/faq/#how-can-i-save-a-keras-model3) 
+    " "
+x
+
+## soru
+
+> quest": "ML modelimizdeki bias sadece modelimizi beslediğimiz veriden mi kaynaklanır? Modelimiz kendiliğinden bir önyargı geliştirebilir mi?
+
+> comments: ": 
+
+ 1.  ->  Merhaba, sanırım böyle bir durum söz konusu. Linkini ekelediğim videoda 1:28den itibaren bahsettiği latent bias buna örnek olabilir. Kurduğumuz algoritamalar bazen cinsiyet, ırk ya da herhangi bir başka özellikle yanlış bağlantılar kurabiliyor. Hatam ya da eksiğim varsa düzeltirseniz sevinirim. Kolay gelsin. [Link](https://youtu.be/59bMh59JQDoMachine) Learning and Human Biasyoutu.beAs researchers and engineers, our goal is to make machine learning technology work for everyone.3 weeks ago 6 people like this.
+ 
+ 1.   ->  video süper teşekküler. yine de bizim modele vermiş olduğumuz veri ile alakalı. bence model kendi kendine bir bias oluşturmuyor, eğer bir çocuğa sürekli erkek fizikçi resimlerini gösterirsek, çocuk, kadın fizikçi olamayacağını düşünebilir, onun gibi bir şey. aslında çok ilginç ve derin bir konu yapay zekanın etiksel boyutu. küçük bir hikaye duymuştum bu konularla ilgili;bir araç sigortası şirketi yapay zeka kullandığında kadın sürücülere aylık olarak daha fazla ücret çıkartıyormuş. kadınların kaza oranı daha yüksek olduğu için (en azından verilen veride öyle). ama iyi araç kullanan kadınlar haksız yere fazla para ödemiş oluyor. ama olayın doğruluk kısmı da var. milyonlarca gözlem tesadüf olamaz, kadınlar % olarak daha çok kaza yapıyormuş. bilmiyorum üzerine çok düşünülmesi gereken şeyler 🙂3,
+    
+ 2. ->  ->  Evet haklısın, bir çocuğa fizikçiler data setinden random bir şekilde fizikçi resimleri göstersek halihazırda erkek fizikçi yüzdesi daha fazla olduğu için ona karşı bir bias geliştirebilir. Yani günümüzdeki mevcut durumda çocuğun bias geliştirmemesi için data setini manipüle etmemiz(yani kadın fizikçileri daha görünür yapmamız) gerekebilir. Bu anolojinin makine öğrenmesindeki karşılığı ne olur ya da sağlıklı bir anoloji olur mu emin değilim. Gerçekten 
+    ucu açık bir konu
+
+ 3.  ->  ->  Bunu da izlemenizi tavsiye ederim [Link](https://www.youtube.com/watch?v=jEcDzHYonLU) 4.3 Discrimination / Bias - [AI For Everyone | Andrew Ng]www.youtube.comAI For Everyone lectures by Andrew Ng and our own Learning Notes. playlist [Link](https://www.youtube.com/playlist?list=PLuyk1nLMhRm5aV6_eeUIuj_MKEekvwGDR3) 
+
+ ## soru
+
+> quest "Merhaba, 9. soruyu anlayamadım yardımcı olabilir misiniz acaba? Ağırlıkları input'tan başlayarak ileriye veya output'tan başlayarak geriye doğru güncelleyerek ilerleyebiliriz tamam fakat niye bu 3 boyutlu olmalı, regresyon olduğu için mi? Bu bir sınıflandırma problemi olsa 2 boyut yeterli olur muydu? Sadece feed forward veya sadece back propagation kullanılması gereken durumlar var mı? Çok teşekkürler şimdiden.
+
+> comments: 
+
+ 1.  Merhaba,Burada 3 boyutlu bir embedding'imiz var. Her boyut ayrı bir nöronu işaret eder. (Örneğin film verisetimizi daha düşük boyutlu bir düzleme indirgemek istediğimizde ve film türünü bir boyut olarak düşündüğümüzde bu aslında bir nöron olur ve ayrı hesaplama gerektirir. 4 boyutlu düzleme indirirsek 4 nöron olur.)Feed Forward modelimizin eğitilme şeklidir ve feed forward ile modelimizi eğitebilirsiniz. Ancak bu nural networkte eğittiğiniz modelin costunu minimize etmek isterseniz (-ki muhtemelen isteyeceksinz) gradient descent yöntemine başvurmalısınız. Burada da işin içine back propagation giriyor çünkü back propagation ile her nöronun weight'ini tekrar ayarlayabiliyorsunuz. (Çünkü neural networkte layerlar arasında geri gidebiliyorsunuz)Hatalı olduğum yer varsa düzeltilmesinden memnun olurum.İyi çalışmalar.
+
+ ## soru
+
+> quest "Merhabalar,herkese çok teşekkürler. Böyle soru -cevap platformuna hep ihtiyacımızın olduğunu düşünüyorum. Yani kendi adıma söyleyecek olursam benim ihtiyacım var çoğu şeyin mantığını buradaki soru cevaplardan kavradım ve cevaplara eş zamanlı ulaşmak gerçekten çok güzeldi. Bu platform gibi soru-cevap platformu açmayı düşünüyor musunuz? Herkesin eline emeğine sağlık bağlandığım benimsediğim bir kurs oldu teşekkürler
+
+> comments: 
+
+ 1.  Merhaba Tuğba, Turkish AI Hub içerisinde tüm sorularını Türkçe olarak dilediğin zaman paylaşabilirsin 😉
+1.   ->  Teşekkür ederim iyi ki varsınız 🙂
+ 2. ->  Program tamamen sonlandıktan sonra \"Machine Learning Crash Course\" bölümüne de girme fırsatımız olacak mı? Girebilirsek faydalı olur çünkü burada güzel bir geçmiş var.,
+ 3. ->  Merhaba, tabii bu hub hep açık kalacak sadece 15 Mayıs'tan sonra soru sorabilme durumunu kapatıyoruz. Sorularınızı Turkish AI Hub içinden sorabilirsiniz bu tarihten sonra 🙂
+
+ ## soru
+
+> quest "Merhaba,  Hafta 4 - Soru #8 ile ilgili olarak,  \"Classifying people as eligible for a credit (positive) or not (negative)\" şıkkı için de precision'a odaklanmamız gerekmez mi?  Modelin, bir kişinin kredi verilmeye uygun olup olmadığını tespit için bankalar tarafından kullanıldığını düşünelim. Model iki türlü yanılabilir;  1 - Gerçekte krediye uygun olmayan birini \"krediye uygundur\" olarak etiketleyebilir (false positive) 2 - Gerçekte krediye uygun olan birini \"krediye uygun değil\" olarak etiketleyebilir (false negative)   Banka burada herhalde 1 no'lu hata tipinden (false positive) kaçınmak isteyecektir zira bu hata diğerine nazaran daha maliyetli. Kredinin geri ödemesini yapamayacak birine kredi verildi.  False positive'lerin sayısını azaltmak da precision'ı artıracağı için, ilgili şıkkın da doğru cevap olması gerektiğini düşünüyorum."
+
+> comments: 
+
+ 1.   Ben de size katılıyorum. Sistemin eligible olmayan birini eligible olarak tahmin etmesi bankaya zorluk çıkarabilir. Yani false positive sayısının azaltılması gerekiyor.
+
+ 2.  Ben de böyle düşünüyorum. Mail olayının precisiona önem verdiğini bilmeme rağmen sırf kredi durumunun daha elzem olduğunu düşündüğüm için kredi şıkkını seçtim.
+
+ 3.  Ben de sizin gibi kararsız kalarak yanlış yaptım. Hala da kararsızım bu konuda ama en son şu sonuca vardım kendimce 🙂 Aslında kredi verme kararında banka için FP i azaltmak daha önemli ancak kredi alabilecek olumlu müşteriye kredi verilmemesi de kaynakların verimsiz kullanılmasına yol açar aslında. O nedenle FN i de azaltmak önemli aslında. Bu nedenle F1 skoruna bakmak daha doğru olacak sanırım. Ek olarak gerçek hayatta ise bu probleme ilişkin müşterilerin kredi batma olasılığı hesaplanırken logistic regresyon ile modellenip accuracy ratio ve roc curve e bakıldığı uygulamalar biliyorum.
+    
+ 1.   Aynı mantık ile düşünerek bende aynı şıkkı işaretledim. Diğerlerinde recall daha önemli bir durumdayken kredi için precision bence daha önemli konumda çünkü hatalı kredi verme lüksü yok.
+ 2.  Bana da öyle geldi, Precision: positive tanımlamaların ne kadarının doğru olduğuyla ilgileniyor. Bu durumda credit (positive) , bunun dışında kalan kısım negative ile bilgi vermez mi diye düşünmedim değil 🙂
+
+ 3.  Bence sadece fp değil fn lere de bakılması gerekildiği için ben o şıkkı işaretlemedim. Ne de olsa krediye uygun olan birine kredi vermemekte sıkıntı çıkarabilir.,
+ 4. ->  Zaten mesele iki hata türü arasında seçim yapmakta, krediye uygun olmayan birine onay vermek mi, krediye uygun olan birine red vermek mi ? Hangisi daha maliyetli?
+
+## soru
+
+> quest "Merhaba, Kurs içeriklerine son erişim tarihi hakkında bilgi verebilir misiniz?  10 Mayıs'a kadar genel tekrar yapmayı planlıyorum
+
+
+> comments: 
+
+ 1. Merhaba, kurs[Link](https://developers.google.com/machine-learning/crash-course) içeriklerine erişim için bir zaman kısıtlaması yok, istediğin zaman erişebilirsin.
+
+## soru
+
+> quest "İyi günler  Machine Learning Crash Course'un 15 mayısta kapanacağını söylemiştiniz, peki kursun devamındaki data prep, clustering, testing and debugging, GANs.. gibi konular bulunan o kısımlarda mı 15 mayısa kadar açık kalacak? Bunun hakkında bilgi verebilir misiniz?
+
+> comments: 
+
+ 1.  Global AI bünyesindeki 'Machine Learning Crash Course' tan bahsedilmiş, ([Link](https://developers.google.com/machine-learning/crash-course) tamamıyla Google bünyesinde bir kurstur 🙂
+
+ ## soru
+
+> quest "Merhaba herkese. Fairness: Types of Bias bölümündeki bias çeşitlerini tam olarak anlayamadım. Bu konuda yardımcı olabilirseniz sevinirim
+
+> comments: 
+
+ 1.  Merhaba,Bu konu ile alakalı bir yazı yayınladım. Buradan inceleyebilirsiniz: [Link](https://medium.com/@ftfethi/hatas%C4%B1z-kul-olmaz-makine-%C3%B6%C4%9Frenmesinde-i%CC%87nsan-yanl%C4%B1l%C4%B1%C4%9F%C4%B1-ede8dc2255f1Aklınıza) takılan bir yer olursa sorabilrsiniz.İyi çalışmalar.
+
+ 2.  ->  Allah razı olsun. Türkçe olunca o kadar kolay anladım ki, google kursta sağolsun ilk defa duyduğum kelimelerle cümleleri uzata uzata anlatmaya çalışmış.
+
+ 3.  ->  Hepimizden razı olsun 🙂 Yorumunuz için çok teşekkür ederim yardımcı olabildiysem ne mutlu bana 🙂
+
+## soru
+
+> quest "Merhabalar, Data Dependencies konusunu tam anlayamadım. Özellikle  correlations ve feedback loops kısımlarında kafam biraz karıştı. Yardımcı olabilir misiniz?"
+
+> comments: 
+ 
+ 1. Merhaba,Bu kısımda datalarımızın olması gereken şekliyle alakalı bilgiler verilmektedir.1.Reliability:Datamız reliable olmalı. Örneğin biz datalara her zaman erişebilecek miyiz yoksa güvensiz bir kaynaktan mı geliyorlar? Eğer başka bir serverdan geliyorsa server sıkıntı çıkardığında modelimizi de etkileyecektir. Veya bu datalar sadece ağustos ayında tatile giden insanları mı içeriyor.(burada stationary'i de bozuyor)2.VersioningBurada modelimiz değişecek mi sorusunu sormalıyız. Eğer değişecekse ne sıklıkla ve değiştiği zaman nasıl bileceksiniz? Datalarımız bir kaynaktan geliyorsa bu kaynak sorun çıkardığında datalarımızı almakta sorun yaşayacağız. Burada bu sorunalra karşı bu kaynaktan aldığımız verilerin bir kopyasını oluşturabilirsiniz.3.NecessityBir feature değeri gerçekten gerekli mi bunu sorar. Burada kısa süreliğine modelinizin performansını yükseltecek bir feature bulup onu eklediğinizde oluşacak ekstra costu göz önünde bulundurmalısınız. Eğer yeni bulduğunuz bu feature bozulmaya uğrayabilir bu yüzden bu feature'ı monitörlemeniz gerekir.4.CorrelationsBurada bazı featureların diğer featurelar ile korele olabilecekleri söylenmiştir. Veri setinizde bu şekilde birbirine bağlı bulunan ve ayırmak için ekstra strateji gerektiren başka featurelar var mı?Correlated featurelar modelimizi her zaman geliştirecek veya her zaman kötü etkileyecek diye bir şey diyemeyiz ama onları istemememiz için nedenlerimiz:a)Algoritmamızın daha da hızlı çalışması: Curse of dimensionality nedeniyle ne kadar az feature'Imız olursa algoritmamız o kadar hızlı çalışır.b)Modelimizin yorumlanabilirliği artar: Ockham'ı hatırlarsanız bir model ne kadar basitse o kadar iyidir. Buradaki basitlik feature değerlerinin az olması olarak yorumlanabilir.Burada correlated feature kötü bir şeydir diyemeyiz modelinizin yapısına göre değişen bir olgudur bu.5.Feedback Loops:Bu kısmı uzun bir şekilde [Link](https://community.globalaihub.com/community/status/1321-1321-1588419875/#comment.5489.5298.5298) linkinde açıklamıştım.Takıldığınız bir yer olursa sorabilirsiniz. Yanlışım var ise düzeltilmesinden memnun olurum.İyi çalışmalar.
+    "Global AI Hubcommunity.globalaihub.comCome and join our community. Expand your network and get to know new people!
+
+ 2.  ->  Burada sizin corralated featureların bize kazanç sağlamayacağını söyleyerek şunu mu kastetmeye çalışyorsunuz. Correlated featurelarımızı birleştirip modele katmalıyız öbürtürlü tek başlarına bir anlam ifade etmeye biliyor ve bize ek yük oluyor.
+
+ 3.  ->  Merhaba,Eğer imkanımız var ise featureları birleştirip yeni feature elde etmemiz daha iiyi olacaktır ancak bazen bu correlated featurelardan oluşan yeni feature değerimiz label ile korele olamayabilir. Zaten correlated feature her koşulda kötüdür ve kullanmamalıyız diyemeyiz evet feature sayısı olarak yük oluyor ve modelimzi kompleks hale getiriyor ama unutmamalıyız ki istediğimiz basitlik ve komplekslik arasındaki en optimum yeri bulmak.İyi çalışmalar
+
+## soru
+
+> quest "Selamlar, önceki konularımızdan aklıma takılan bir soruyu sormak istiyorum. Aşağıda soruldu ise göremedim.  Classification: Prediction Bias kısmında bias ın kök sebeplerin biri olarak Buggy pipeline da listelenmiş. Buggy pipeline nedir? nasıl oluşur?
+
+> comments: 
+
+ 1. Emin olmamakla birlikte, düşüncemi paylaşıyorum: Bir tahminleme modeli oluşturmak için işletilen süreçlerim tümü (veri toplama, temizleme, feature engineering, training, evaluation vb.) pipeline. Bu adımlardan herhangi birinin uygulanışında bir hata varsa elde ettiğimiz pipeline \"buggy\" oluyor. Yani bu sanki biraz mevcut kategorilere ait olmayan hataların kategorisi. Örneğin, uygulamanın matris çarpımında bir hata yaptın, bu diğer hata kategorilerinin hiçbirine girmiyor ama buggy pipeline olarak düşünülebilir.
+
+ 2.  Merhaba,Pipeline, makine öğrenmesindeki akışları otomatize etmek için kullanılır. Pipeline hesaplamaların bir derlemesi olan bir bileşen dizisinden oluşur. Veriler bu bileşenler aracılığıyla gönderilir ve hesaplama yardımı ile işlenir. Eğer pipeline da bug olursa verilerimiz yanlış tahmin edilecektir.Pipeline ile ilgili daha fazla bilgi için: [Link](https://medium.com/analytics-vidhya/what-is-a-pipeline-in-machine-learning-how-to-create-one-bda91d0ceacaİyi) çalışmalar.
+    "WHAT IS A PIPELINE IN MACHINE LEARNING?HOW TO CREATE ONE?medium.comMachine Learning Is Burgeoning3,
+
+## soru
+
+> quest "Static vs. Dynamic Inference ve Data Dependencies konularını pek anlamadığımı düşünmüyorum, sorularında yanlışlarım var
+
+> comments: 
+
+ 1. Merhaba,Inference kavramı modelimizin tahminde bulunması demektir diyebiliriz kaba ve kısa bir tabirle. Burada static ve dynamic inference dediği onlibne offline inference diyebiliriz.Offline inference'ta statik bir veri kümeniz vardır.Online inference'ta sorgu geldikçe eğitime sokulur.Online inference'ta daha fazla veriniz vardır fakat zaman kısıtlamanız vardır.Offline inference iyi(+) ve kötü(-) yönleri:+ Tahmin costunu düşünmek zorunda değilsiniz+ Tahminlerimizi verify edebiliriz çünkü verisetinde olmayan bir şey tahmin etmiyoruz.-Sadece bildiğimiz şeyleri predict edebiliriz.Online inference iyi(+) ve kötü(-) yönleri:+Yeni veri geldikçe onun hakkında tahmin yapabiliriz.-Yoğun hesaplama gerektirir, gecikmeye çok duyarlıdır. Bu da modelin kompleksitesini kısıtlayabilir.-:Modelinizi daha yoğun monitörlemeniz gerekmektedir.Data Dependencies konusunu [Link](https://community.globalaihub.com/community/status/1338-1338-1588435795/#comment.5507.5315.5315)linkinde açıklamaya çalıştım. Sorunuz olursa sorabilirsiniz.İyi çalışmalar.
+
+ 2.  Online inference i sürekli canlı veri akan bir sistemdeki sorgulama yapmaya çalışmak gibi düşünebilirsin. Örneğin twitter to tt olan bir konu üzerinde sorgulama yapıyorsun. Offline inference te ise stream olmayan bir veri setinin sonuçlarından bahsedebiliriz.
+
+## soru
+
+> quest "Merhaba,  Embedding kısmında Logit Layer'ın foksiyonunu tam olarak anlamadım. Yardımcı olabilirseniz sevinirim.
+
+> comments: 
+
+ 1.  Merhaba,Logit layer kısmı aslında output katmanı yani bizim outputumuz.0 dan 9 a kadar elle yazılmış rakamları tespit eden bir modelimiz olsaydı logit layerımız yani outputumuz, her biri farklı bir rakamı temsil eden 10 farklı nörondan oluşacaktı, en yüksek outputu veren nöron da bizim cevabımız olacaktı.Movie recommendation örneğinde de amacımız 500 bin film arasından 2-3 tane film izlemiş bir izleyiciye bu filmler arasından hangi filmleri önerebileceğimizi hesaplayan bir model oluşturmak. Outputumuz örneğin 500 bin den 4-5 tane film olacak. Bunun için, her bir film için bir nöron olacak şekilde 500 bin nöron içeren bir logit layer katmanı oluşturuyoruz, modelimiz hangi filmleri önerdiyse o filmlerin nöronları çıkış veriyor.
+
+## soru
+
+> quest "Merhaba arkadaşlar,  ML Engineering bölümü Data Dependencies başlığının altındaki soruyu tam yapamadım ve bahsedilen feedback loop kavramını anlamadığımı farkettim. Yardımcı olabilir misiniz?
+
+> comments: 
+
+ 1. Merhaba, anladığım kadarıyla feedback loops dediğimiz kavramda modelin kendi ya da başka modelin verilerini etkilemesi söz konusu, mesela model a model b'nin sonuçlarını doğrudan ya da dolaylı olarak input feature olarak kullanabilir. Sistemin kalitesi input featureların kalitesine bağlı, çöp giren çöp çıkar mantığıyla modelimizi test, verify, monitoring dediğimiz aşamalardan geçirmeliyiz. Sorunun doğru cevabında olan seçeneklerimizi açıklamaya çalışayım.1)\"A book-recommendation model that suggests novels its users may like based on their popularity (i.e., the number of times the books have been purchased)\" Kullanıcılara popülerliğe göre roman öneren kitap tavsiye modelinde en çok satılan kitapların daha çok önerilmesi satın almayı arttırabilir. Girdi olarak geri beslediği için aynı kitapları önerme olasılığı artar.2) \" A traffic-forecasting model that predicts congestion at highway exits near the beach, using beach crowd size as one of its features.\" sahile yakın otoyol çıkışlarının tıkanıklığını tahmin eden model, plaj kalabalığı boyutunu feature olarak kullanmış ve trafik yoğun olduğu zaman insanlar alternatif planlar yapar ve döngü böylece devam eder. 3) \"A university-ranking model that rates schools in part by their selectivity—the percentage of students who applied that were admitted.\" burada anladığım kadarıyla okulları seçiciliklerine göre değerlendiren bir üniversite ranking modeli var. Ve sıralamada en yüksek dereceli okullar daha çok ilgi göreceği için bu diğer senenin sonuçlarını etkiler.
+
+ 2. Not: Yazdıklarımın tamamı gözükmediği için devamını resim olarak paylaşıyorum.Merhaba,Feedback Loop bir modelin outputunun kendisini veya başka modeli etkilemesidir. Örneğin elimizde A ve B modelleri olsun ve A'nın outputunu B'yi etkiliyor olsun. A eğer hatalı bir model ise outputu da hatalı olacaktır ve B de dolayısı ile hatalı olacaktır.Crash Course'taki örnek üzerinden ilerlersek:A modelimiz hatalı olup X hissesini almaya karar veriyor olsun. Bu stok alımı stok fiyatını yükseltecektir. B modelimiz de bu stok fiyatlarını input alıyor olsun. B modeli kolayca X hissesinin fiyatı konusunda hatalı bir sonuca ulaşacaktır. Bunun nedeni kendisini etkileyen A modelinin hatalı hatalı olmasıdır. B modeli bu fiyata göre bu hisseyi alıp satmaya karar verebilir. Aynı zamanda B'Nin sonucu da A'yı etkileyebilir.Dipnot: Makine Öğrenmesinde modellerimiz hep hatalıdır(gerçek değere yakın tahmin üretse de gerçek değeri üretmez). Burada hatadan kastımız buggy durumu yani mdoelimizin normal dışı hatalı olmasıdır.Soruya gelirsek de sorumuzda bize hangi modelin feedback loop olmaya açık olduğunu soruyor;Burada doğru cevaplar üzerinden açıklamamı yapayım önce:1.A book-recommendation model that suggests novels its users may like based on their popularity (i.e., the number of times the books have been purchased).Burada satılan kitap sayısına göre kitapların popülaritesi ölçülür ve kulalnıcıya bununla ilgili bir öneride bulunulur. Modelin inpute değerine kitapların satılma sayısı diyelim outputa da önerilecek kitap diyelim. Öneride bulunulan kitapların ise satışlarının artması olasıdır yani bu modelin kendi outputu aslında kendi inputunu etkilemiştir. (Output kitap önerisi - input bu öneriye bağlı artan satış sayısı)2.A university-ranking model that rates schools in part by their selectivity—the percentage of students who applied that were admitted.Burada okulları seçiciliklerine göre derecelendirmek istiyoruz. Burada seçcilik dediğimiz şey de başvuranlardan kabul edilen öğrencilerin yüzdesidir. Burada ise şu etkiyle karşılaşırız: en yüksek derecede olan okula ek ilgi uyanabilir ve aldıkları başvuru sayısı artabilir. Bu okullar kontenjanı aynı tutup aynı sayıda öğrenci kabul etmeye devam ederse seçicilik artacaktır. (çünkü başvuran sayısı artıyor.) Bu şekilde modelin outputu inputunu etkilemiş diyebilriz. (input seçicilik oranı, output derece)3.A traffic-forecasting model that predicts congestion at highway exits near the beach, using beach crowd size as one of its features.Burada modelimiz sahile yakın otoyol sıkışıklığını tahmin ederken plajdaki kalabalığı feature olarak kullanıyor.Burada plaja gitmeyi düşünen insanlar trafik olduğu tahmin edilirse plaja gitmekten vagzeçebilir böylece kalabalık azalır ve kalabalık azalırsa otoyol açılacağı için bu sefer plaja gitmeyi düşünenler plaja gitmek isteyecek ve orayı kalabalıklalştırarak trafiği arttıracaktır. (input plaj kalabalığı, output sahile yakın otoyolun sıkışıklık durumu)Hatalı olanlara gelirsek:1.A face-attributes model that detects whether a person is smiling in a photo, which is regularly trained on a database of stock photography that is automatically updated monthly.Burada modelimizn yüzümüzdeki mimikleri tahmin etmesinin kendisine veya başka bir modele etkisi yoktur. Modelimiz bu tahminyle bir döngü durumu oluşturmamaktadır. Sadece gülen yüz, ağlayan yüz vb tahminlerde bulunmuştur.2.A housing-value model that predicts house prices, using size (area in square meters), number of bedrooms, and geographic location as features.Burada modelimizin outputu modelimizin featurelarını etkilememektedir. Örneğin Londrada 6 odalı 300 metrekare 2 yatak odalı bir evin fiyatı 500000 pound olarak tahmin edilirse bu tahmin bizim yatak odası
+
+ ## soru
+
+> quest "Merhabalar herkese, keyifli haftasonları :)  Ben \"Fairness: Evaluating for Bias\" içeriğinden bir soru sormak istiyorum. Verilen örneği tekrar özetlersek; 500 erkek ve 500 kadın hastanın tıbbi kayıtlarını almışlar ve tümör olup olmadığını tespit eden bir model geliştirmişler. Model performansı sonucu recall %80, precision %73 çıkmış. Sonrasında test datasını kadın ve erkek olarak ikiye ayırıp performansı incelediklerinde;  Kadın hastalar için perfomans: precision %91, recall %91 Erkek hastalar için performans: precision %67, recall % 54 olduğu görülmüş, buradan bias ın önemini anlıyoruz demiş.  Burada tam olarak hangi tip bias olabilir (selection, reporting, implicit vs.) ? Dataset imbalanced (negative sayısı pozitif sayısından daha fazla) ama erkek-kadın ayrıldığında iki grup için de oran aynı. Bu hata farkı erkeklerde görülen tümörün tespit edilmesi daha zor olduğu için olabilir mi?  Çözüm olarak sample sayısını artırmaktan başka modelde nasıl bir değişiklik yapılabilir? Cinsiyeti (e-k) ilave bir feature olarak versek performansımız artar mıydı?  Tartışmaya açıktır, teşekkürler 🙂",
+
+> comments: 
+
+ 1. Validation set 500E/500K olarak ayrılmış ancak training set hakkında bilgi verilmemiş. Training set'te bir coverage bias sözkonusu olabilir. Sadece validation set sonucuna bakarak cinsiyeti bir feature olarak eklemek doğru olmayabilir (gerçekten de bias var ise). Bu noktada, eğitim materyelinde de anlatıldığı gibi, bir tıbbi uzmana danışıp, cinsiyetin hastalığa etkisinin biyolojik temeli olup olmadığı öğrenilebilir. Eğer böyle bir temel var ise feature olarak eklenebilir.
+
+## soru
+
+> quest "Merhaba. Static vs. Dynamic Training kısmında anlamadığım bazı kısımlar oldu. Fotoğrafta altı çizili olan maddeleri açıklayabilir misiniz ? 
+
+> comments: 
+
+ 1.  Burada anlatmak istediği şeyler şu, monitoring'ten kastı modele girdilerin izlenmesi gerekiyor. modele giren şeylerin, eğitilmiş modelin yapısını bozmamasını bekleriz, o yüzden inputlar (eğer feedback odaklı bir sistem kullanıyorsak) çok önemli. Statik model için diyor ki, yine girdileri izlemeniz gerekiyor ve bu modelin geçerliliğini kaybetmesi çok kısa bir zaman alır. Dinamik model için de, giren datayı izlemeniz ve gerekmektedir. Data karantinasından aslında ne demek istediğini az çok anlarsınız. Son altı çizili yer de şunu söylüyor, statik modelimiz geçerliliğini kısa zamanda kaybederken, dinamik modelimiz bu süreçten daha yavaş etkileniyor çünkü sürekli güncel veri geliyor ve model bunlara göre kendini yeniliyor
+
+ ## soru
+
+> quest "Merhaba Arkadaşlar, \"Embeddings as lookup tables\" bölümünü anlayamadım. Yardımcı olabilir misinz?  Çok teşekkürler"
+
+> comments: 
+
+ 1.  Merhaba,[Link](https://community.globalaihub.com/community/status/1002-1002-1588159848) bu postun altında bu konu tartışıldı, kafanızda soru işareti olursa yanıtlamaktan memnuniyet duyarım.İyi çalışmalar.
+
+## soru
+
+> quest "Merhaba nu haftaki konumuza alakalı olmamakla birlikte geçmiş haftalarda konu olan back propagation konusunun ne olduğunu pek anlayamadım bunu biz neden kullanıyoruz?
+
+> comments: 
+
+ 1. Neural network ta basitçe; girdiler, hidden layers, çıktı katmanı. Modelimizi kurduk. Forward propagation ile başladık. Burada biz farazi değerler vererek işlemleri giriş katmanından çıkış katmanına kadar götürüyoruz ancak tabiki hatamız sonunda yüksek çıkıcak. Ne yapmamız lazım geri dönüp (back propagation) parametreleri güncelleyeceğiz. Bu geri dönme direk en başa dönme olarak değil, nasıl geldiysek tek tek katmanlar arası dönüş yapıyoruz. çıkış- hidden layers- girdilerin ilk ağırlıklarına kadar. Bu geri dönme işlemini türev alarak yapıyoruz tabi ki. Backpropagation'ı tamamladığımızda en başa yani inputların ağırlıklarına gelmiş oluyoruz. Sonra tekrar forward propagation yapıyoruz çıktıya geliyoruz, hatamıza bakıyoruz, olmadı mı tekrar back propagation ....Back propagationa başladığında her parametre için aldığın türevler hatanın yüksek çıkmasına sebep olan parametreler için ceza değeri oluyor.
+
+ 2.  Merhaba,Back propagation yapmamızın sebebi neural network'ümüzün hatasını minimize edebilmek. Back propagation yaptığımızda gradient descent yapmaya olanak sağlıyoruz. Aşağıdaki resmi düşünün. Burada hidden layerımızdaki her nöronun weight hata oranımızı etkiliyor. Bizim bu weight değerleriyle oynama yaparak hata oranımızı minimize etmemiz lazım. Ama hidden layer weightleir de input layer weightleri tarafından etkileniyor yani hidden layerı değiştirmek için input layer'a kaddar uzanıp oaradaki weightleri değiştirmemiz lazım. Bu sayede neural network'ümüz layerlarda geri giderek uygun weight ayarlamalarını gradient descent kullanarak yapabilir.İyi çalışmalar.
+
+ 3. Merhaba Özkaya,Back propagation işlemi aslında modelimizi train ettiğimiz işlem oluyor.Modelimizi hiperparametrelerini ayarladıktan sonra rastgele weight değerleri ile train datası üzerinde tahmin yapacak şekilde çalıştırıyoruz. Bu işlem sonucunda elde ettiğimiz değerler modelimizin tahmin ettiği değerler oluyor ve gerçekte olması gereken değerler ile karşılaştırıyoruz.Bu karşılaştırma sonucunda çıkan loss değerleri ile modelimizin weightlerini geriye doğru güncelliyoruz. Bu işleme back propagation deniyor. Bu işlem ile amacımız lossu mümkün olduğunca azaltmak.İşlemde türev kullanılıyor çünkü hangi neuronun sonucu ne kadar değiştirdiğini bularak her bir neuronun optimum weight değerini set etmeye çalışıyoruz.Aşağıda paylaştığım linki incelemen çok faydalı olacaktır. Basitçe bir neural network üzerinde feed forward ve back propagation işlemleri gösteriliyor.İyi çalışmalar.[Link](https://developers-dot-devsite-v2-prod.appspot.com/machine-learning/crash-course/backprop-scroll) [Developersdevelopers-dot-devsite-v2-prod.appspot.com](https://developers-dot-devsite-v2-prod.appspot.com/machine-learning/crash-course/backprop-scroll) 
+
+## soru
+
+> quest "Merhaba, Neural Networkler ile ilgili bulduğum yararlı olabileceğini düşündüğüm bir kaynağı sizlerle paylaşmak istedim. Oldukça açıklamalı ve eğlenceli anlatım tarzıyla anlamanıza yardımcı olacağını umuyorum. [Link](https://www.youtube.com/watch?v=XJ7HLz9VYz0&amp;list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh\) Bu playlist neural networkler ile ilgilidir daha fazlası için kanalı inceleyebilirsiniz. Herkese iyi çalışmalar dilerim.",
+
+> comments: 
+
+ 1. Güzel paylaşım teşekkürler. 3-4 gün kadar önce Embedding konusunu çalışırken bu kanalı keşfetmiştim ve word2vec konusunu daha iyi kavrayabilmemde kanaldaki şu video oldukça yardımcı olmuştu:[What is word2vec](https://www.youtube.com/watch?v=LSS_bos_TPI12.1) 
+
+ ## soru
+
+> quest "Merhaba, Neural Networks-&gt;Structure bölümünde lineer olmayan modelimizi hidden layer yardımıyla lineer bir modele çevirebiliyoduk biliyorduk. Bir hidden layer işimizi görürken neden ikinci bir hidden layere ihtiyaç duduk.
+
+> comments: 
+
+ 1.  Merhabalar,Daha fazla katman demek,teorik olarak daha fazla detay demektir.Hidden Layer'larda,özellik çıkarımı yapılır yani 'özellikler öğrenilir.'Daha fazla katman,daha fazla node ve weight demektir,biliyoruz ki modelimiz veriyi tahmin gücünü 'node' ve 'weight' lerden alır.Bu yüzden dir ki,birden fazla hidden layer kullanıyoruz.Bunu,beynimizden ilham alarak hayal edebiliriz.Beynimiz milyarlarca birbirinie bağlı nöronlardan (node) oluşan ve bu nöronlar arasındaki iletişim (weight) sayesinde düşünür. Ki 'Artificial Neural Network' alanı da tamamıyla buradan ilham almıştır.Lütfen eksik veya yanlış olduğum bir yer varsa bilgilendiriniz 🙂
+
+ 2.  'Linear olmayan modeli hidden layer yardimiyla linear modele ceviriyoruz' ifadesi butunuyle yanlis.Hidden layer ekleyerek modelini daha komplex hale getirerek modelin daha fazla feature ogrenmesine olanak veriyorsun..Layer larinda kullandigin non-linear activation function ile non-lineariteyi yakalamis oluyorsun.
+
+## soru
+
+> quest "merhabalar, bu haftanın konusu değil ama aklıma takıldı. Scale ve kategorik dönüştürme(encoding) işlemlerini modeli split etmeden önce mi yapmak gerekir yoksa split ettikten sonra mı? Eğer split ettikten sonraysa y test ve train için de bunları yapmak gerekiyor mu?
+
+> comments: 
+
+ 1. Evet,en azından kategorik dönüştürmeyi kullanacağınız tüm veriler üzerinde gerçekleştirip,modelin işleyebilmesi için encode en iyisidir. Scale işlemine gelirsek, y_test ve y_train gibi Label yani sınıf-çözüm-çıkış belirten setler,genellikte Encoding işlemi ile kullanıma hazır hale gelebilirler.Verisetindeki anlam,işlem yükü,işlem hassasiyeti vs gibi parametlere göre scale ve encoding işlemlerinin yeri değişebilir.Ancak kodlama esnasında,en azından kendi gördüğüm ve yazdığım örneklerde,ayırma işlemi yapıldıktan sonra Scale-Encoding-Preprocessing gibi işlemler yapılır,kodun okunabilirliği arttırılır. Ayrıca,aynı verisetinden split edilmiş alt-grupların farklı işlemlere tabi tutulabileceğini unutmamak lazım.Kısaca,tutorial ve state-of-art çalışmalarını inceleyip,kendinize göre bir yol haritası çıkarmayı denemenizi tavsiye ederim.Eksik veya yanlış ifade ettiğim bir şey varsa söylemekten çekinmeyin lütfen 🙂,
+
+## soru
+
+> quest "Merhabalar, genel tekrar yaparken iki konuda anlamadığım yerler olduğunu farkettim.  1-) playground exercise bölümlerinde turuncu ve mavi alanlar arasında bazen çok net ve keskin bir beyaz çizgi olurken bazen arada kalan bu beyaz alan daha geniş ve bulut gibi dağınık olarak bulunuyor bunun anlamı nedir?  2-) Sparse vektör ve sparse representation kavramlarını tam oturtamadım. bir vektör eğer çok fazla zero içeriyorsa buna sparse vektör diyoruz ancak sparse representation bunun tam tersi olarak sadece non-zero elemanların gösterimi olarak karşımıza çıkıyor. Burada anlam karmaşası yaşadığım bir yer olduğunu ve gözden kaçırdığımı düşünüyorum.  Cevaplarınız için teşekkür ederim.
+
+> comments: 
+
+ 1.  Merhaba,1. Modeliniz eğitilirken eğitim ve test seti random olarak dağıldığı için eğitiminiz her seferinde aynı performansı vermez. Bu yüzden her zaman aynı sonucu elde edemezsiniz.3. Sparse Vektörümüz one hot veya multi hot encoding vektörü olabilir ve içserisinde 0lara nazaran çok az 1 değeri vardır çok gereksiz 0 değeri vardır. Sparse representation'ımız ise sparse vektörlerdeki 0 olan değerleri değil 1 olan değerleri alıp feature olarak kullanma işlemimizdir. Bunu yapma sebebimiz ise 0 olan değerlerin çok olduğu bir vektör hem performans hem de storage olarak problem oluşturmaya yaklaşmış olacaktır.İyi çalışmalar.
+
+ 2. ->  cevaplar için teşekkürler ancak birinci sorumu doğru soramamışım sanırım. İki alan arasındaki çizginin net olmasından ne gibi bir anlam çıkarabiliriz? mesela turuncu ve mavi arasındaki beyaz alan ince bir çizgi oluyorsa model daha iyi öğrenmiş veya karmaşıklığı daha yüksektir gibi bir yorum çıkarmamız mümkün müdür?
+
+ 3.   ->  Renk çok yoğunsa modelimiz tahminlerini daha emin bir şekilde gerçekleştiriyoe, yoğun değilse de tam tersini söyleyebiliriz. Beyaz çizgimiz hipotez fonksiyonumuzun grafiğe dökülmüş halidir ve tam emin olmamakla beraber bu alanın çok genişlemesi veya çok daralması bu modelimizin performansının kötü olduğunu göstermektedir.İyi çalışmalar.3,
+
+## soru
+
+> quest "Merhaba, bu kısımda neden native_country ve occupation'ı embeddings olarak alırken diğerlerini one-hot encoding olarak aldık?
+
+> comments: 
+
+ 1. Merhaba,Bunun nedeni indicator_column parametre olarak kategorik bir veri alır, embedding_column ise sparse bir vektör alır.occupation = tf.feature_column.categorical_column_with_hash_bucket(\"occupation\", hash_bucket_size=1000)native_country = tf.feature_column.categorical_column_with_hash_bucket(\"native_country\", hash_bucket_size=1000)Kod satırlarında bu iki feature için possible range'i bilmememizden ötürü her bir feature değerini sayı değerine çevirmeyi amaçlıyoruz.Bu nedenle de bu iki feature değerimiz sparse vektör olmuş oluyor ve embedding_column ile bu iki sparse vektör olan feature değerlerini daha düşük boyutlu bir düzleme oturtuyoruz.
+
+ 2.   ->  buradaki hash_bucket dediğimiz şey nedir? teşekkürler,
+ 3. ->  Merhaba,[Link](https://community.globalaihub.com/community/status/687-687-1587030142/#comment.4200.4092.4092) yorumumda hash_bucket'ı anlatmıştım.
+
+## soru
+
+> quest "Merhabalar herkese ve kolaylıklar dilerim.LSTM- Long Short Term Memory networks nedir? Hangi durumlarda kullanırız? Dört katmandan oluşmasının sebebi nedir? Tam anlayamadığım bir konu oldu.  Açıklamalar için şimdiden çok teşekkür ederim. ",
+
+> comments: 
+
+1.  Aşağıdaki urlye bak aradığın soruların cevabını bulacaksın.[Uzun-Kısa Süreli Bellek (Long Short-Term Memory](https://devhunteryz.wordpress.com/2018/07/14/uzun-kisa-sureli-bellek-long-short-term-memory/) 
+2.   ->  teşekkür ederim,
+
+### soru 
+
+> quest "Merhabalar, herkese kolay gelsin öncelikle. Prediction bias konusunda kafama takılan birkaç soru var. California'daki ev fiyatları örneğinden yola çıkarsak evlerin gerçek ortalama fiyatları ile bizim tahmin ettiğimiz fiyatların ortalaması aynı çıkarsa prediction biasımız 0 olur gibi bir sonuca vardım yanlış anlamadıysam. Ancak ortalama değer kullandığımız için aslında her bir örneği tek tek ele aldığımızda çıkacak hataları gözden kaçırmış oluyoruz. 40 -60 ile 10-90 ikililerinin ortalamasının aynı olması gibi. Bu yüzden prediction biasın sonucunu yorumlarken neye dikkat etmeliyiz? Ayrıca ortalamaların bir fonksiyonu olmasına rağmen positive labelların frekansı(sıklığı) ile ilgili bilgiye bizi nasıl yönlendiriyor? Aralarındaki ilişkiyi çözebilmiş değilim, yardımcı olabilirseniz sevinirim.",
+
+> comments: 
+
+1.  Merhaba, dediğiniz gibi hataları gözden kaçırabiliriz. o yüzden 0 olması modelimizin mükemmel olduğu hakkında sağlıklı bir bilgi veremez. ancak 0'a uzak bir değer elde edersek modelimizin yanlış olduğunu belirleyebiliriz. doğruluğu değil de problemi tespit etmek için kullanılıyor diye düşünüyorum. positive label için ise; prediction bias kavramı logistic regression başlığında anlatılmış. logistic regressionda binary classification yapıyorduk. dolayısıyla değerlerimiz 0 ve 1 olduğunda ve ortalamasını aldığımızda direkt olarak positive labelların frekansı hakkında bir fikir edinebiliriz. prediction bias 0.20 çıkarsa olduğundan daha fazla positive tahmin yapmışız diyebiliriz mesela.",
+2.   ->  çok teşekkürler
+3.  Sizin verdiğiniz örnekten yola çıkarsak gerçek değerlerin ortalamasının 50 olduğu bir veride 40-60 ve 10-90 tahminlerini üreten modellerin ikisinde de prediction bias = 0 dır. Fakat ikincisinde prediction variance çok daha yüksek. İlk model daha iyidir diyebiliriz. Hatta 51-52 tahminlerini üreten bir model, küçük bir pred.bias ortaya çıkarsa bile prediction variance neredeyse sıfır olduğu için daha kabul edilebilirdir.",
+
+### soru
+
+> quest "Merhabalar, 2.haftanın quizi ile ilgili bir sorum vardı. 8.soruda sparse representationları ne zaman kullandığımızı sormuş ve cevap olarak da \"When data size is large and most of feature value that we are interested in is zero. \" demiş. Ancak açıklama kısmında yalnızca sıfır olmayanların depolanmasından bahsettmiş. Sadece sıfır olmayanları depoluyorsak non-zero olanlarla ilgileniyor olmaz mıyız? Bu kısım biraz kafamı karıştırdı. Şimdiden açıklamanız için teşekkürler.",
+
+> comments: 
+
+1.  Gökçe merhaba,\"When data size is large and most of feature value that we are interested in is zero.\" ile anlatılmak istenen, datadaki çoğu feature'ın sıfır olması durumu. Dediğin gibi non-zero olanlarla ilgilenmiş oluyoruz, açıklama kısmından anladığın doğru.Verilen şıkkın anlamı ile ilgili bir yanlış anlaşılma var sanırım.",
+2.  ->  Yardımlarınız için teşekkür ederim,
+3.  Merhabalar, ne zaman ve niçin seyrek (sparse) gösterim kullanılır sorusunun cevabını görsel olarak ekledim. Burada seyrek gösterimin amacı çok fazla sayıda niteliğin (feature) değerinin sıfır olması ve veri setimizinde büyük olduğu durumlarda kullanılmaktadır. Senin sorunun cevabı, bir çok nitelik sıfır olduğu için (beni ilgilendiren durum) geri kalan az miktarda niteliği saklıyorum. Tersten bakarsak eğer bir çok değer sıfır olmasaydı (yine beni ilgilendiren durum) seyrek gösterim kullanamazdım. Yani burada az sayıda niteliğimiz sıfır olmadığı için değil,çok sayıda niteliğimiz sıfır olduğu için seyrek (sparse) gösterim kullanılıyor. Umarım açık olmuştur 🙂",
+4.  ->  Teşekkürler 🙂
+
+### soru 
+
+> quest "Merhaba arkadaşlar, Embeddings&gt;Obtaining Embeddings bölümünde yer alan \"Training an Embedding as Part of a Larger Model\" kısmını pek anlayamadım. Yardımcı olabilir misiniz?",
+
+> comments: 
+
+1.  Merhaba,Word2vec işleminin amacı sınıflandırma yapmak değil kelimelerimizi numerik veriye çevirmektir. Word2vec işlemi sonucunda embedding elde ederiz. Bu word2vec işlemini daha geniş bir modelimizin bir parçası olarak kullanabiliriz. Bu yaklaşımla daha özelleştirilmiş bir embedding elde ederiz ancak bu iş embedding'in ayrı eğitilmesine oranla daha uzun sürer.[Link](https://developers.google.com/machine-learning/crash-course/embeddings/obtaining-embeddings) sayfasındaki figür 5'te pembe nöronlar ekstra embedding katmanımız olup diğer feature ve hidden layerlarla da birleştirilebilirler böylece modelimiz daha özelleştirilmiş bir embeddinge sahip olur. Embedding layerımızdan çıkan sonucumuz numerik olur. Burada kısacası embedding işlemi yapan yeni bir hidden layerı modelimize yerleştirdik böylece daha büyük bir modelin parçası olarak embedding işlemini gerçekleştirmiş olduk.İyi çalışmalar.",
+[Embeddings: Obtaining Embeddings  |  Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/embeddings/obtaining-embeddings3)
+2. ->  Bu yapıyı anlamakta güçlük çekiyorum. Buradan sormanın daha uygun olacağını düşündüm.,
+3.  ->  teşekkür ederim şimdi anladım.
+4.  -> Merhaba yorumunuzu geç farkettim kusuruma bakmayın.Bu yapı bizim modelimizin yapısı. Modelimizde kullanıcıların filmler i ve diğer featureları belirlediğimiz 3 boyutlu embedding iişlemine sokup 3 boyutlu düzleme indirgiyoruz. Burada pembe nöronlar ekstra embedding katmanlarımız olur. Bu katmanlar sayesinde embedding daha özelleştirilmiş olur. Burada logits dediğimiz katman softmax katmanımızdır yani sonuç katmanı. Softmax seçilen softmax tipine göre (full veya candidate) belli output seti için bir probabilty hesaplaması yapar. Bu softmax sonuçlarıyla sağdaki sarımsı dikdörtgenin temsil ettiği gerçek değerlerini kıyaslarız ve softmax loss hesaplarız.İyi çalışmalar.,
+
+### soru
+
+> quest "Merhaba, Embeddings: Translating to a Lower-Dimensional Space kısmında biraz kafam karıştı. Bag of words'un embedding ile ilişkisini ve matrix multiplication'u anlayamadım. Yardımcı olabilir misiniz? Teşekkür ederim. [Link](https://developers.google.com/machine-learning/crash-course/embeddings/translating-to-a-lower-dimensional-space)
+
+> comments: 
+
+1.  Merhaba, matrix multiplication'u özet olarak çizmeye çalıştım, umarım okunur4 weeks ago 13 people like this.Like ReportReply",
+2.  ->  Teşekkür ederim 🙂
+3. Merhaba,Öncelikle Word Embedding'i açıklayayım. Word Embedding kelimeleri daha düşük boyutlu bir düzleme oturtup (vektör olarak) bu vektörler arasında matematiksel işlemler yaptıkça yeni anlamlı vektörler(bunlara diğer textler de diyebiliriz) elde ettiğimiz bir NLP sürecidirMakine öğrenmesi algoritmamız plain textleri oldukları formunda işleyemediğinden word embedding yöntemine başvuruyoruz.Burada word embedding ile textlerin dil anlamlarını oldukça yakalamaya çalışıyoruz.Her bir wordümüz kategorik bir veriydi ve bunları one hot-multi hot encoding ile numerik veriye çevirerek işleme sokabilirdik ama bu sefer de oluşacak sparse vektörümüz performans sorunlarına yol açacaktı.(örneğin 100000000 kelimelik bir dictionarynizde cat kelimesini one hot encoding ile göstermek istediğinizde vektörünüzde sadece 1 adet 1 değeriniz ve 99999999 tane 0 değeri olacaktır ve elinizde sparse bir vektör olacaktır)Örneğin şöyle bir cümlemiz olsun: \"Word Embedding kelimeleri numaralara çevirir.\"Dictionary: Cümlemizdeki unique kelimeler listesi. Yukarıdaki cümlemize göre dictionary'miz: ['Word','Embedding','kelimeleri','numaralara','çevirir']Vektörlerimizi One Hot Encoding kullanarak gösterebiliriz örneğin numaralara kelimesi için vektörümüz: [0,0,0,1,0] olur. Tek bir kelime öğesi için dense vektörü elde etmek için, o öğeye karşılık gelen sütunu alırsınız.Sparse multi-hot encoding türünde olan bir vektörü çevirebilmeniz için her embeddingi alıp bunları birbiriyle toplayabilirsiniz.Count Vector cümlenizde unique kelimelerin tekrar sayısını tutar. Örneğin elimizde aşağıdaki gibi bir dictionary'miz olsun:['müdür','gerçekten','kedi']Örneğin \"müdür gerçekten müdür müdür\" sorusunu count vector'e çevirdiğimizde:['müdür','gerçekten','kedi']3 1 0Burada söylenen de eğer bu vektörü dense vektöre çevirmek istersek her birininn embeddingini almadan önce görüntülenme sayısı kadar çarpabiliriz. Burada bu toplama ve çarpma işlemi aslında vektör toplama ve çarpımıdır. Matrix çarpımı kuralına göre ilk vektörünüz(sparse'ımız) 1xM boyuttaysa ve ikinci vektörünüz(Embedding'imiz) MxN boyuttaysa çarpım sonucu 1xN boyutta olur.Not: -> 'ın eklemeleriyle açıklama yeniden düzenlenmiştir.İyi çalışmalar.3 weeks ago 6 people like this.Like ReportReply",
+4.  Teşekkür ederim 🙂 -> ,
+5.  ->  Burada embedding konusunda yaptiginiz aciklamalar maalesef pek saglikli degil Bu sebeple bu aciklamanin baska arkadaslara tavsiye edilmesini dogru bulmuyorum.,
+6.  ->  Merhaba,Eleştiriniz için teşekkür ederim. Sağlıklı olmadığını düşündüğünüz yerde bana yardımcı olmanızı ve ben de size olabileceksem yardımcı olmaya çalışmak isterim. Eğer yardımcı olamayacaksam da mutlaka yerime yardımcı olacaklardır.
+7.  ->  Word embedding taniminizi ve neden word embedding kullaniyoruz konusundaki aciklamalarinizda sorun var.Sorun tam olarak 'word embedding icin textleri numerik yapiya cevirmemizdir ' cumlesi ve 'Makine öğrenmesi algoritmamız plain textleri oldukları formunda işleyemediğinden word embedding yöntemine başvuruyoruz.'cumleleridir.,
+8. ->  Düzeltmeleriniz ve yorumunuz için çok teşekkür ederim.Burada word embeddingin text'i numerik yapıya çevirmek için olduğunu söylediğimde aslında bu textlerin dil anlamlarını oldukça yakalamaya çalıştığımızı da eklemeliydim. Burada makine öğrenmesi algoritmamız textleri(kategorik veri oldukları için) one veya multi hot encoding kullanarak da eğitebilirdi fakat bu sparse vektör sorununa yol açardı bu yüzden bunun yerine word embedding tercih ediyoruz demeliydim. Son olarak Word embedding için kelimeleri daha düşük boyutlu bir düzleme oturtup (vektör olarak) bu vektörler arasında matematiksel işlemler yaptıkça yeni anlamlı vektörler(bunlara diğer textler de diyebiliriz) elde ettiğimiz bir NLP sürecidir diye de bahsetmeliydim. Halen yanlışlarım var ise düzeltmenizden ve doğrularını öğrenmekten memnun olurum, eğer yanlışım yoksa yukarıdaki cevabımı bu şekilde güncellemek isterim.İyi çalışmalar.
+9.  ->  Bu aciklamanizda one hot coding veya multi one codig kullanmak sparse vektor sorununa yol acar kisminda sorun var.Sparse vektor sorunu diye bir sorun yok Sorun curse of dimensionality olabilir.,
+10.  Embedding konusunu duzgun Turkce kelimelerle anlatabilecegim bir yaziya basladim ancak Turkce ifade etmek kolay degil.Ama yazimi tamamlayip paylasacagim,
+11.  ->  Şöyle ki bu problemde çok fazla kelime içeren bir dictionaryniz varsa bu kelimeleri one hot encoding ile ifade etmek sparse sorununa yol açacaktır örneğin 100000000 kelimelik bir dictionarynizde cat kelimesini one hot encoding ile göstermek istediğinizde vektörünüzde sadece 1 adet 1 değeriniz ve 99999999 tane 0 değeri olacaktır ve elinizde sparse bir vektör olacaktır bu da performans problemlerine yol açacaktır. Sparse vektör sorunundan kastım buydu. Yazınızı sabırsızlıkla bekliyorum okuyup bilmediklerimi öğrenmek isterim ama şu an hatalarımı düzeltip burada kurs alan arkadaşlarıma bilgiyi daha hızlı iletmek isterim. Yazım süresince kolaylıklar ve iyi çalışmalar dilerim.3,
+12.  ->  Tesekkur ederim
+
+### soru 
+
+> quest "Merhabalar, Embeddings bölümünde \"Lack of meaningfull \" kısmında  anlatılmak istenileni tam anlayamadım. Bu kısımda yardımcı olabilir misiniz?",
+
+> comments: 
+
+1. Merhaba,Lack of Meaningful Relations Between Vectors, Sparse representation'da oluşabilecek problemlerden biridir. Örneğin siz RGB kanallarının piksel değerlerini image sınıflandırıcısna sokarsanız vektörlerin yakınlıklarından söz etmek mantıklı olur. Örneğin kırmızımsı mavi saf maviye daha yakın olur. Bu yakınlık hem anlamsal bir yakınlık hemde düzlemdeki geometrik yakınlıktır.Ancak \"at\" için 1247. indeksi 1 olan bir vektör, \"antilop\" için 50.430. indeksi 1 olan bir vektöre \"televizyon\" için 238. indeksinde 1 olan bir vektöre yakın olduğu kadar olmayacaktır. Yani at, televizyona daha yakın olacaktır ama antilopa daha yakın olması gerkiyordu mantık olarak.Bunları da embedding yaparak aşabiliriz. Embeddingde kendi belirlediğimiz boyut kadar düzleme tüm eğitim örneklerimizi oturtturup yakınlıklarına göre tahminlerde bulunuyoruz. Burada kendi belirlediğimiz düzlem boyutları sayesinde filmleri daha sistematik şekilde daha küçük boyutlu bir düzleme oturtuyoruz.İyi çalışmalar.4 weeks ago 7 people like this.Like ReportReply",
+2.   ->  Teşekkür ederim, böyle daha açık oldu",
+
+### soru 
+
+> quest "Merhabalar herkese , embeddings kısımını kafamda tam oturtamadım . Anladığım kadarı ile daha iyi bir prediction için uzay üzerinde ağırlıklarına göre vektörler belirliyoruz . Böylelikle daha rahat sınıflandırabiliyor ve feature'lar arasındaki ilişkiyi daha net görebiliyoruz. Bundan sonrasında bunu yapmak için modelimizde tam olarak ne yaptığımızı ve özellikle \"Embeddings: Translating to a Lower-Dimensional Space\" , \"Embeddings: Translating to a Lower-Dimensional Space\" kısımlarını tam olarak oturtamadım yardımcı olabilirseniz çok sevinirim , şimdiden teşekkür ederim...",
+
+> comments: 
+
+1. Merhaba,Embedding kullanılan senaryolarda input değerlerimiz continuosu bir valur değil discrete bir değerdir. Yani inputlarımızın çeşitliliği sınırlıdır örneğin kullanıcının izlediği filmlere göre bir öneri yapma modelimizde inputlarımız bizim izlediğimiz filmler olacaktır ve bu filmler de sistemde tanımlı olan filmlerden biri olmak zorundadır.Burada bu öneri sistemini kullanabilmek adına elimizdeki filmleri bir düzleme oturtup farklı özelliklere göre kategorilendirmemiz daha sağlıklı olacaktır. Tüm bu kategoriler bir boyutu temsil eder örneğim filmlerimizi (Yaş kategorisi, ve filmin korku olup olmadığı) bu iki kategoride ele almak istersek iki boyutlu bir düzlemde filmlerimizi yerleştirmiş oluruz. Burada yaptığımız elimizdeki input değerlerini daha az boyutlu (2,3 veya daha fazla boyut sayısı size kalmış) bir düzlemde inceleyebilmek ve birbirilerine yakınlıklarına göre aynı kefeye koyabilmek. Burada birbirine yakın olarak konumlandırılan filmleri önerebilirsiniz. Örneğin Silent Hill filmi korku türünde ve yaş sınırlaması +18 olan bir filmdir. Star Wars ise Fantastik ve Silent Hill filmine göre hiç korkunç değildir bu yüzden düzlemimizde ilgili eksenin korku tarafına göre negatif tarafında olacaktır. ([Link](https://developers.google.com/machine-learning/crash-course/embeddings/motivation-from-collaborative-filtering#arrange-movies-in-a-two-dimensional-space) altındaki resmi 2 boyutlu olarak örnek alabilirsiniz.) Bu yüzden de Silent Hill filmini izlemiş birine Star Wars filmini önermezsiniz. Gerçek dünyada bu saydığım iki kriterden çok daha fazla kriter vardır hatta filmin açıklaması bile bir kriter sayılabilir. Kısacası embedding dediğimiz şey büyük sparse (içinde çok 0 ve az 1 bulunan vektörler) vektörleri aralarındaki semantic ilişkiyi koruyarak daha düşük boyutlu bir düzlemde gösterir. Bir diğer tanımı ise kategorik inputları continuous valuelara çevirir diye yapabiliriz. Çünkü düzlemdeki konumları bir nokta ifade edecek ve bu noktalar artık ilgili kategorik verimizi tanımlayan değer olacaktır. (Boyut sayısı ve kadar fazlaysa noktanın bileşenleri daha fazladır örneğin 2 boyutlu embeddingde bir input değerimizi x1,x2 ile tanımlayabiliyorken 3 boyutlu embeddingde bu x1,x2,x3 olacaktır.)Embeddings: Translating to a Lower-Dimensional Space kısmında ise yukarıda bahsettiğim gibi yüksek boyutlu verilerinizi daha düşük boyutlu bir alana eşleyerek sparsity sorunlarını çözebilirsiniz. Bu yeni oluşacak düzlemde artık bulunan noktalarımızın (eğitim setimizden örnekler örneğin film eğitim setimizden Braveheart) birbirilerine olan uzaklıkları baz alınarak işlem yapılacaktır. Örneğin Silent Hill ve Star Wars filmlerinin birbirine bu düzlemde yakın olmalarını beklemeyiz. Pozisyon, semantiğe göre verileri ayırabilir. Bu semantik ayırması da makine öğrenmesi algoritmamızın öğrenmeye yararı büyük olan belli patternleri de tespit etmesine yardımcı olur. Yalnız burada dimension sayısına dikkat etmemiz lazım ne çok büyük ne de çok az olmalı. Çok büyük olması öğrenmeyi daha da iyileşitirirken süreden ve kaynaktan götürür, Çok küçük olmaıs ise hızı arttırır ama eğitim tam anlamıyla performanslı olmaz. Her bir embedding aslında içindeki değerlerin vektör hallerini kapsar. Örneğin 2 boyutlu düzlemimizde spider man filmi bizim film listemizde 2.sıradaysa ve bizim 9999 filmimiz varsa [[0.2,1.2],[1.3,4],,....[-17,17.6] olacaktır. (Spider-man [1.3,4] noktasındadır. Elinizde birden fazla film içeren bir sprase vektör varsa buradaki 1 olan değerlerin hepsi için ayrı ayrı embedding alıp bunları toplayabilirsiniz.Eğer yanlışım varsa düzeltilmesinden memnun olurum.İyi çalışmalar dilerim.4 weeks ago 15 people like this.Like ReportReply",
+2.  Ayrıntılı ve anlaşılır bir açıklama olmuş . Çok Teşekkür ederim , iyi çalışmalar dilerim4,
+
+### soru 
+
+> quest "Merhaba arkadaşlar, sizin içinde faydalı olacağını düşündüyüm makaleyi paylaşıyorum. İyi okumalar 🙂  [Link](https://hackernoon.com/memorizing-is-not-learning-6-tricks-to-prevent-overfitting-in-machine-learning-820b091dc42)
+
+> comments: 
+
+
+### soru 
+
+> quest "Merhaba, Embedding'i tam olarak oturmadı. Yardımcı olabilir misiniz?",
+
+> comments: 
+
+1. Evet beni de çok zorladı. Bu konuda biraz açıklama yapılırsa memnun olurum.",
+2.  1xN bir sparse vector'ü NxM bir embedding table ile çarpıp 1xM dense vector elde ederiz diyor ama bu embedding table'ın dnn'de nasıl hesaplandığını anlayamadım.",
+3.  Embedding konusunu ben de anlayamadım. Farklı kaynaklardan yararlanmamız gerekecek.",
+4.  Embeddings temelde bir kategorik değişkenin mappingini ifade ediyor. Aslında olay manaya matematik katabilmek. Örneğin; King - Man + Women = Queen demek gibi aslında. Bu yöntemi One-hot encode vs ile yaparsam anlam işin içinde olmuyor. Ben basitçe böyle anladım. Yanlış anladıysam düzeltirseniz sevinirim.4,
+5.  Merhaba, embedding veya gömme işlemini yapay sinir ağlarında üç temel iş için kullanıyoruz. Bunlar;1- \"Embedding space\" dediğimiz bu düzlemde en yakın komşuyu bulup, \"öneri\" sistemlerinin daha efektif çalışmasını sağlayabilmek.2- denetimli öğrenimde bir girdi olarak kullanabilme.3- Kategoriler arasındaki ilişkileri ve konseptleri görselleştirebilme.Neden one-hot encoding kullanmıyoruz sorusunun da iki temel cevabı var ;1-Yüksek kardinalite değişkenleri için (birçok benzersiz kategoriye sahip olanlar) one-hot vektörün boyutları yönetilemez hale gelir.2- One-hot encoding'te, gömme kategorilerinde olduğu gibi birbirine yakın değerler, yakın yerlere yerleşmiyor.Temel mantığı bu, ileri okuma için bakabilirsiniz. [Neural Network Embeddings](https://towardsdatascience.com/neural-network-embeddings-explained-4d028e6f0526)
+6.  Yorumlarınız için teşekkür ederim. Olayın mantığını bir nebze kavradım. Bu işlemin nasıl yapıldığını araştırdığımda işin içine co-occurence, co-variance gibi matrixler girdi ve sanırım bir de prediction yoluyla(ki kursta bu yol anlatılıyor sanırım) hesaplama yapılıyor ben bu işlemi anlayamadım.",
+
+### soru 
+
+> quest "Neural Networks bolumu, playground exercise, Task 3 yanitinda gecen su ifade ile ilgili: \"3 neurons are enough because the XOR function can be expressed as a combination of 3 half-planes (ReLU activation).\" Ornegin bu task'da tek hidden layer'da filtreler gorsellestirilmis. her bir filtre gorunumu, ogrenilen weigth'ler kullanilarak b+w1*x1+w2*x2 linear kombinasyonu hesaplandiginda elde edilen ciktiya ReLu uygulandiginda elde edilen goruntu, degil mi? Burada bahsedilen XOR islemi nedir? Neden XOR anlamadim, bilginiz var mi?  Ikinci olarak, Task 4 yanitinda: \"A single hidden layer with 3 neurons can model the data, but there is no redundancy, so on many runs it will effectively lose a neuron and not learn a good model. A single layer with more than 3 neurons has more redundancy, and thus is more likely to converge to a good model.\" neden pek cok run yapildiginda bazi neuron'lar silinsin (regularization kullanmiyorum) ? neuron sayisinda redundancy olmasi istenen birsey mi? optimal neuran ve hidden layer sayisina nasil karar verecegiz?  Cok tesekkur ederim. ",
+
+> comments: 
+
+1.  XOR işlemi doğrusal olmayan bir işlemdir. AND,OR işlemleri doğrusal işlemlerdir. XOR işleminde 1,0=0 0,1=0 1,1=1 0,0=1 değerleri vardır. Bunları grafiğe döktüğümüz zaman iki sınıfa ayırmak için linear bir çizgi çizemiyoruz. Yani bu problem linear bir modelle çözülemez. Doğrusal bir model inşa ederek bu problem çözülebilir. Bu yüzden gizli katmanlara gelen linear girişleri doğrusal olmayan çıkışa dönüştürmek için aktivasyon fonksiyonları(ReLu gibi) kullanılır. Bu sayede verinin doğrusal olmayan özelliklerini öğrenmiş olur.",
+2. ->  Doğrusal 'olmayan' bir model inşa ederek bu problem çözülebilir. mi olucak? fakat relu islemi ile XOR islemi ayni sey degil. ReLu ile surece nonlinear'lik katildigini anliyorum. XOR'un buradaki fonksyonu nedir? lineer combination yerine XOR ile mi onceki layer'in ciktilari birlestirilip sonraki layer'a iletiliyor?",
+"3. -> -> eğer simulator'ı çalıştırmadan datanın dağılımına bakarsan, noise 0 iken daha da net gözüküyor, sorun aslında bu datanın dağılımının bir XOR problemi olması. XOR linear olmadığı için onun nonlinear bir biçimde modellenmesi gerekiyor. Senin de dediğin gibi ReLU modele nonlinearity katmak için kullanılıyor. Zaten senin soru içinde paylaştığın ingilizce textte de bundan bahsedilmiş. XOR fonksiyonu ReLU aktivasyonu olarak ifade edilebilir diyor. Tekrar özetlemek gerekirse linear olan layerlardan, XOR fonksiyonunu temsil edebilecek nonlinear bir network oluşturabilmek için ReLU aktivasyonu kullanılıyor.",
+4.  XOR sadece non-lineariteyi anlatmak icin kullaniliyor.Grafikte degerleri yerine koyup tek bir dogruyla iki farkli data grubunu ayiramadigini goruyorsun.Non lineariteyi perceptronla cozemeyecegini acikliyor. Ve artik non_linear olan problemini neural network olusturarak cozuyorsun.",
+5. ->  siz ne dusunuyorsunuz?",
+6. -> Merhaba,Burada her hidden layer kendisinden önceki layerdaki nodeları daha da komplike ve nonlineer hale getirir. Yani 1 hidden layerımız var ise kendisinden önceki input layer'ındaki nodeları (bu nodelar bizim feature değerlerimiz olur. Bu feature değerleri ile birlikte weight değerleri olur.) Burada bizim fonksiyon eşleşmesini (nodeların her biri bir fonksiyon olduğu için aslında node eşleşmesi) kontrol eden weight matrisleri olur. Bu matirsleri feature değerlerimizle çarptığımızda o layer için ilgili node çıktılarını elde ederiz. (Resim ile ekledim.) Burada bu lineer bağıntılarda aslında sigmoidi alınmış bir fonksiyonun tekrar sigmoidi alındığında daha komplike bir fonksioyon elde edeceğimiz görülebilir. (Örneğin a1,a2,a3 sigmoid bir fonksiyondur. h(x) fonksiyonunda ise bu sigmoid fonksiyonların direk olarak olmasa da tekrar sigmoidlerinin alındığı görülebilir.)XOR olmasını sebebi aslında şu, XOR'un bizim düzlemimizi ayırış şekli bizim problemimize uyuyor bu yüzden de çözümümüzü XOR'a göre uyarlamak istedik. Burada AND yöntemiyle çözebileceğimzi bir problem olsaydı nöronlarımızı AND problemini implemente edebilecek şekilde tanımlayacaktık. Bunu yapmanın bir yolu ise tek hidden layerda 3 nöron kullanmaktı. Bu nöronlardan her biri aynı çıktıyı üretmez bunun sebebi ilgili weight matrixleri ve ilgili nöronun feature değerinin çarpımlarıdır. (Resmdeki denklemde theta2n 2.nörün için, theta3n(n burada herhaangi bir sayı) 3.nöron için işleme sokulacak weight değeridir.)2. şık için ise şunu söyleyebilrim. Nöronlarınız ve layerlarınız arttığında kompleksiteniz artar ve modeliniz çğrenmekten çok ezber yapar yani overfit olur.Burada 3 nöronun problemi çözmeye eyetebileceğini, fazlasının overfittinge yol açarak fazlalık oalcağını söylemek istemiş.Problemlerin büyük çoğunluğu tek katman kullanılarak yapılabilir ama modelinizin loss değeri tek katmanla azalmıyorsa daha komplike bir yapıya yani ekstra bir layera ihtiyacınız vardır. Nöron sayısı ise genelde input ve output nöron adetleri arasında olur. Bu nöron ve layer değerlerini bir anda kafamızdan belirleyemeyiz problemimizin kompleksitesine göre problemimizi bazı metriklerle analiz edip bu analizlere göre layer ve nöron değerlerimizi belirleyebilriz ama belirlerken yukarıda söylediğim kısımlara dikkat etmeliyiz.Kaynak: [Link](https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw) Anlamadığınız bir yer olursa sorabilirsiniz.İyi çalışmalar.",
+
+### soru 
+ 
+> quest "Merhaba, hangi durumlarda L1, ve hangi durumlarda L2 regularization sececegimizin bir kurali var mi? Feature dimension cok buyukse her zaman L1 regularization mi seciyoruz?",
+
+> comments: 
+
+1.  Benim fikrime göre hayır herhangi bir kural yok. L1 ve L2 modelden modele farklı sonuçlar sergileyebilir. Her ikisinide deneyip optimum sonuca ulaşılabilir diye düşünüyorum. Burada bizim hedeflerimizde önemli, örneğin hesaplama açısında RAM kullanımı fazla olmayacak bir model hedefliyorsak elbette L1 daha uygun bir seçenek olacaktır.",
+2. ->  tesekkurler.",
+
+### soru
+
+> quest "Merhabalar, bu haftaya tamamlarken tam olarak hidden layer in modellerimize eklendiğinde ne işe yaradığını kavrayamadım. Ben modele hangi durumda hidden  layer ekliyorum? Hangi durumlarda hidden layer lara  neuron ekliyorum? Teşekkürler şimdiden",
+
+> comments: 
+
+1. Merhaba,Sınıflandırma problemlerimizde lineerlik kullanamıyoruz bunun nedenini Modelimizin inputlarını nonlineer olarak hesaplamak için [Link](https://medium.com/@ftfethi/makine-%C3%B6%C4%9Frenmesinde-s%C4%B1n%C4%B1fland%C4%B1rma-problemlerine-neden-lineer-regresyon-i%CC%87le-yakla%C5%9Fm%C4%B1yoruz-5ede1e3b12d4) yazımda anlatmaya çalıştım. Bu yüzden nonlineer yöntemlere başvurmak zorundayız. Modelimiz çok karmaşık nonlineeritelik içerebilir. Bunun için neural networklere başvururuz. Neural networklerin amacı Inputlarımızı karmaşık nonlineer hale getirerek belli nonlineer problemleri çözebilmek. Input ve output arasına lineeritemizi nonlineer yapacak hidden layerlar ekliyoruz.(nerual networkte input ve output layerları dışındaki her layer hidden layerdır). Bu hidden layer'da nöronlar bulunur ve bu nöronlar farklı nonlineer işlemler yapabilirler (ReLU, Sigmod vs) Nöronlarımızın artması ilgili layerdan önceli layerdaki nöronların bilgilerinin daha komplike bir şekilde yorumlanmasına neden olur, fazladan hidden layer eklersek de modelimizin karmaşıklığını arttırmış oluruz. Yani modelimizin karmaşıklığı o problemi çözmeye yetmiyorsa neuron ve hidden layer eklemeyi düşünebiliriz. Resimde hidden layer ve nöronu anlatmaya çalıştım.İyi çalışmalar.",
+"Makine Öğrenmesinde Sınıflandırma Problemlerine Neden Lineer Regresyon İle Yaklaşmıyoruz?medium.comMerhabalar, Malum bu sıralar Covid-19 yüzünden evdeyiz. Ben de kendimi nasıl geliştirebilirim diye düşünmeye başladığımda senelerdir…4,
+2.  Hidden layerlar modelin daha kompleks featureları öğrenmesine yardımcı olur. Normal bir XOR datasını öğrenirken 1 tane hidden layer iş görecektir. Ama modele öğretmeye çalıştığımız veri seti daha karmaşıksa ([Link](https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/playground-exercises) buradaki spiral data gibi) 1 hidden layer öğrenmeye yeterli olmayacaktır. Daha kompleks özellikler öğrenmek için daha derin nöron katmanları gerekiyor kısaca.Ama gereğinden fazla hidden layer kullanırsak ve/veya hidden layerlara gereğinden fazla node eklersek de modelimiz veri setine overfit olacaktır. O yüzden veriyi inceleyerek gerekli sayıdaki hidden layer-node ayarını tutturmak gerekiyor. (az kullanıp underfit kalmamak ve çok kullanıp overfit olmamak için)",
+3.  Hidden layer ın amacı verideki önemli özellikleri ortaya çıkarmaktır. Örneğin bir köpek resmimiz olsun. Modelimizde sadece bir gizli katman varsa modelimiz öğrenemez. 50 tane gizli katman olursa köpeğin burnunu,kuyruğunu,gözünü,gövdesini vb. özelliklerini öğrenir. Gizli katmanlara aktivasyon fonkisyonları uygulanarak doğrusal gelen girişleri doğrusal olmayan çıkışlara dönüştürür.4 weeks ago 4 people like this.Like ReportReply",
+4.   ->  teşekkür ederim",
+5.   ->  ->  ->  açıklamalar için çok teşekkür ederim şimdi daha iyi anladım",
+
+### soru 
+
+> quest "Merhaba, Accuracy icin derste sorulan su soruyu anlamadim: In which of the following scenarios would a high accuracy value suggest that the ML model is doing a good job?  Neden asagidaki secenek dogru? In the game of roulette, a ball is dropped on a spinning wheel and eventually lands in one of 38 slots. Using visual features (the spin of the ball, the position of the wheel when the ball was dropped, the height of the ball over the wheel), an ML model can predict the slot that the ball will land in with an accuracy of 4%.",
+
+> comments: 
+
+1.  Merhaba,--> Hangi senaryoda sağlanmış olan yüksek accuracy(doğruluk) değeri, modelimizin iyi bir iş çıkardığını gösterir?Doğru olan seçenek: Rulet oyunu örnek olarak verilmiş, ortada dönmekte olan bir bir tekerliğin içerisine bırakılan bir topun 38 hazneden birine düşmesidir. Görsel özelliklerin kullanılması ile bir ML modelinin %4 lük bir accuracy ile topun nereye düşeceğini tahmin edebilmektedir.Sebebi ise normal de herhangi bir işlem yapılmaksızın bir tahmin yapacak olsak doğru olarak tahmin etme oranımız: 1/38 olacak ki bu da yaklaşık 2.63% değerine kaşılık gelmektedir. ML %4 'lük bir oran ile herhangi bir işlem yapılmaksızın yapılacak olan bir tahminden daha iyi sonuç vermektedir.. Burada 2.63% değerinden daha büyük oranlara sahip olan her ML modeli için iyi bir iş çıkarmıştır diyebiliriz.İyi çalışmalar.4 weeks ago 5 people like this.Like ReportReply",
+2. Merhaba,Burada öncelikle neden %99.99 accuracy oranı olan modelimizin her zaman iyi bir iş yapamayacağını açıklamaya çalışalım. Siz hastalıkların %99.99'unu iyi tahmin edebilen bir modele sahipsiniz fakat belki modeliniz bütün hastalık ihtimallerini hasta değil olarak tahmin ettiğinde de %99.99luk bir accuracy başarısı elde edeceksiniz.Buradaki mantık [Link](https://community.globalaihub.com/?status/1133-1133-1587498846/ linkindeki soru altında konuşuldu.Burada eğer hasta olan birine modelimiz hasta değil derse (%99.99 accuracy oranlı hep hasta değil tahmini yapan modelimiz var.) hasta ölecektir.Rulet oyununda ise bir topun bir slota gelme oranı %2.6'dir. Yani accuracy değerimiz %2.6'dir. Bu bağlamda bir tahminin gerçekleşme oranı her seferinde 1/38'dir. Ancak burada modelimizin accuracy'si %4 olduğu için ve beklediğimiz acuracy'den(%2.6) daha büyük bir tahmin accuracy'sine sahip olduğu için modelin doğruluğu \"sadece\"% 4 olmasına rağmen, başarının faydaları başarısızlığın dezavantajlarından çok daha ağır basacaktır.İyi çalışmalar.Community",
+
+### soru 
+
+> quest "Merhabalar Precision ile Recall arasında tam olarak fark nedir ?  Teşekkürler",
+
+> comments: 
+
+1.  Merhaba,[Link](https://community.globalaihub.com/?status/1482-1482-1587492075/#comment.4714.4568.4568) linkinde bunu açıklamaya çalıştım. Sorunuz olursa yanıtlamaktan memnuniyet duyarım.İyi çalışmalar.Community4,
+
+### soru 
+
+> quest "Merhabalar,   - İlk sorum neden test ve eğitim setlerini neden ayırmıştık x ve y olarak yani 4 değişkene...    - Bir diğer sorum da Flatten ve Dense layerler arasındaki fark nedir?  (Resimler ektedir.)  Şimdiden teşekkürler! 🙂",
+
+> comments: 
+
+1.  Günaydın,ilk soru ile başlayayım. Verimizi ilk görselde 2 grup olarak DÜŞÜNÜYORUZ aslında.Train ve test seti. Oradaki kodda MNIST setini yüklerken bize 4 adet array dönüyor; 1-)Train verisetinin örnekleri (Example) yani x_train değişkeni , 2-)Train setinin etiketleri (labels yani ne oldukları kedi köpek vs.) yani x_test değişkeni 3-)Test setinin örnekleri (Predict edilmesini istediğimiz örnekler) 4-)Test setinin etiketleri (labels-yani predict/true değerlerin kontrolü için kullanılacak liste) y_test. Modelin eğitimi ve değerlendirilmesi için gerekli veriler ayrılmış kısaca 🙂",
+2.  İkinci soru için; Gizli Katman (Hidden Layer) dediğimiz yapının tf.keras modülündeki adı Dense.Modelimize bir katman eklemek için Dense modülünü çağırıyoruz.Zaten aldığı parametrelerden de anlaşılabiliyor. Flatten ise , N-boyutlu olarak gelen matrisin tek boyuta indirgeyerek (Height * Weight) tek boyutlu bir vektör matrise çevrilmesini sağlar.Şu linkten ([Link](https://www.superdatascience.com/blogs/convolutional-neural-networks-cnn-step-3-flattening) nasıl çalıştığını inceleyebilirsin.",
+3. Çok teşekkür ederim",
+
+### soru 
+
+> quest "Herkese merhabalar,  Playground Exercises : A First Neural Network : Task 3 cevabı olarak verilmiş aşağıdaki ifadenin ne anlatmak istediğini tam olarak anlayamadım. Yardımcı olursanız sevinirim. Teşekkürler. :) \"3 neurons are enough because the XOR function can be expressed as a combination of 3 half-planes (ReLU activation). You can see this from looking at the neuron images, which show the output of the individual neurons. In a good model with 3 neurons and ReLU activation, there will be 1 image with an almost vertical line, detecting X1 being positive (or negative; the sign may be switched), 1 image with an almost horizontal line, detecting the sign of X2, and 1 image with a diagonal line, detecting their interaction.\"",
+
+> comments: 
+
+1. Merhaba,Burada modelimizin nonlinear fonksiyonunu ReLU ve 3 nöronlu tek bir hidden layer ile oluşturabileceğimizi ama loss açısından efektif olmayacağını söylemiş. Hidden Layer'ımızın XOR fonksiyonunu ifade etmek istemesinin sebebi lineer fonksiyonumuzu bu sayede daha karmaşık nonlinear bir yapıya çevirmek. (XOR çözümünü kullanarak yapmış. Burada her mantıksal operatör farklı çıktılar üretir örneğin AND, NAND, XOR gibi operatörler. Burada bu problemin tanımına uyan operatörümüz ise XOR poeratörüdür ve 3 yarı düzlem şeklinde (her nöron bir yarı düzlemi ifade eder.Her bir nöronumuz farklı bir fonksiyondur ve farklı bir iş yapar.Hidden layerdaki ilk nöronumuz x1 input'unun pozitif veya negatif olduğunu algılayan, neredeyse dikey bir çizgiyi output olarak verir.Hidden layerdaki 2. nöronumuz x2 inputunun pozitif veya negatif olduğunu algılayan neredeyse yatay bir çizgiyi output olarak verir.Hidden layerdaki 3.nöron ise bu iki inputun etkileşimlerini algılayan çapraz bir çizgi döndürür. Bu 3 nöron output'u ise bizim output layer'Imıza gönderilir. Modelimizde loss oranı optimum yakınsamayacaktır çünkü daha çok nonlinearity içeren bir problemle karşı karşıyayız.İyi çalışmalar.4 weeks ago 8 people like this.Like ReportReply",
+2.  ->  Teşekkür ederim.",
+
+### soru 
+
+> quest "Merhabalar, Neural Networks kısmındaki hem Playground hem de Programming egzersizlerinden sonra sormak istediğim problem için hidden layer sayısı ve bu layer'lardaki nöron sayısı deneme yanımalar sonucu mu saptanabilir ? Tabi ki overfitting ile karşılaşmamak için çok kompleks modeller tercih etmeyebiliriz ama daha iyi test loss yaratan kombinasyonu bulmak için deneme-yanılma mı yapılmalı ? Çok teşekkürler.",
+
+> comments: 
+
+1.  Malesef kitapta yazılı olan bir kuralı yoktur bu işin,güzel yanı da o zaten.Araştırmaların amacı aslında dediğiniz konuda bir yol oluşturmak ancak,düşündüğümüz zaman 'overfitting','underfitting','gradient vanish' vs gibi durumların hepsi araştırmalar yani deneme yanılmalar sonrasında bulunmuştur.Örneğin Programming Exercise kısmındaki eğitim süreci 2-3 dakika bile sürmüyorken,daha yüksek çözünürlük ve özellikli (RGB-dimensions) görüntülerde,donanım gücüne ve veriseti boyutuna göre saatlerce hatta günlerce süren eğitim süreçleri vardır.Bu gibi durumlarda, deneme-yanılma aşırı verimsiz bir yöntem olur. Şahsen en mantıklısı, benzer problemler üzerinde çalışılmış çalışmaları inceleyerek,kendi yol haritanızı çıkarmanızdır.4 weeks ago 5 people like this.Like ReportReply",
+2.  Gizli katman sayısı, neuron sayısı ve öğrenme katsayısı gibi bütün hiper parametreler denem yanılma yöntemiyle optimum seviyeye çıkarılır. Zaten \"tuning\" ile kastettiğimiz de bir nevi deneme yanılmadır. Fakat bu tuning işlemini daha organize ve sistematik bir hale getirmek için çeşitli yöntemler mevcut. (bkz. Grid Search) Bununla birlikte daha çok model geliştirerek tecrübe edindiğinizde, yeni bir model oluştuturken nasıl hiper parametreler seçmeniz gerektiğine dair zihninizde bir takım sezgiler oluşacaktır, bu da tuning kısmını hızlandıracaktır.",
+
+### soru 
+
+> quest "Merhabalar,   Regularization: Sparsity konusunda L0 regularization'ın tam olarak ne yaptığını ve neden kullanamadığımızı anlayamadım. Yardımcı olabilir misiniz?   Şimdiden teşekkürler.",
+
+> comments: 
+
+1.  L0, L1'in daha ilkel hali olarak düşünebiliriz. L0 modelimizde sıfır olmayan weightleri sürekli sayıyor ve bunları bir şekilde sıfırlamaya çalışıyor. Bu tarzda bir metod ancak modelimizde belli bir kazanç varsa, iyi fit ediyorsa, mantıklı olabilir. Fakat sezgisel olarak mantıklı görünen bu durum, pratikte modelimizi dış bükey olmayan (non-convex) bir hale sokuyor ve dış bükey olmayan modelleri optimize etmek diğerlerine oranla daha zor. Çünkü maliyet fonksiyonunda global minimum noktayı bulmak zorlaşıyor, bunun yerine modelimiz yerel minimum noktaya yakınsayabiliyor. Bu sebeble L0'a nispeten yakın bir metod olan L1'ı kullanmak daha mantıklı. L1 her gördüğü weighti sıfırlamaya çalışmak yerine bilgi çekemediği weightleri sıfırlıyor.4 weeks ago 12 people like this.Like ReportReply",
+
+### soru 
+
+> quest "Merhaba,  \"Multi-Class Neural Networks: Softmax\" başlıklı konuda \"Softmax layer must have same number of nodes as output layer.\" ifadesi geçiyor.  Burada softmax layer, output layer'ın kendisi değil mi? Zaten resimde de ayrı bir output layer gösterimi yok, son layer olarak softmax çizilmiş.  Neden bu şekilde ifade etmiş olabilirler?",
+
+> comments: 
+
+1.  Merhaba,Softmax layerımız tipik olarak son layerımızdır. Burada benim anladığım şey oluşturacağımız ihtimaller dizisi(sınıf diye geçer) kadar (Kedi mi?Hayır. - Köpek mi? Evet. -Yumurta mı?Hayır gibi) node a sahip olmalı çünkü her sınıf için bir değer hesaplaması yapıyoruz. (Örnekte 5 node var çünkü 5 sınıfımız var)İyi çalışmalar.4 weeks ago 4 people like this.Like ReportReply",
+2. ->  Anladım. Ayrı bir output layer sözkonusu değil. Önceki örneklerdeki output layer'a işaret etmişler muhtemelen. Teşekkürler.",
+3.  Ornekle aciklayayim.Classification yapacagiz.Classes = {agac : 0, insan : 1, araba: 2} olsun.Yani 3 tane sinifimiz olsun.Son layer da 3 tane node a ihtiyacim var cunku 3 tane output var.Kac tane sinifin varsa son layerda o kadar node a ihtiyacin var.Cok cok yaygin olarak networkteki diger layerlarda RELU activation function kullanilip, son layer da Softmax kullaniliyor cunku Softmax bize probabilistic distrubition sagliyor.Boylece siniflandirma yapilmis oluyor.4 weeks ago 5 people like this.Like ReportReply",
+
+### soru 
+
+> quest "Merhabalar herkese,  Benim sorum multi-class neural networklerde candidate sampling ile softmax yapılması üzerine olacak. Anladığım kadarıyla çok fazla class ın olduğu bir classification probleminde tüm class lar için softmax işlemi yapmak çok uzun sürüyor ve computational cost yüksek oluyor. Bunu önlemek için training esnasında bir sample için train ederken o sample a ait class ın output nöronunu ve random seçtiğimiz diğer classlardan bazı nöronları alarak softmax işlemi yapıyoruz.  Burada random seçtiğimiz  classların  sayısını biz mi belirliyoruz, bu da bir hyper parametre midir?  Teşekkürler 🙂",
+
+> comments: 
+   
+1.  Sizinde bahsettiğiniz üzere, softmax, sınıf sayısı az olduğunda oldukça maliyetsiz bir yöntem, ancak sınıf sayısı arttıkça aşırı derecede pahalı hale gelebiliyor. Candidate Sampling eğitim metodu, çok sayıda sınıfa sahip problemlerde verimliliği artırabilir. Candidate Sampling metodunda olasılıklar pozitif etiketlerin hepsi için hesaplanırken, negatif etiketlerden rastgele seçilenler için hesaplanır. İncelediğim dökümanda (bkz. [Link](https://www.tensorflow.org/extras/candidate_sampling.pdf) bu sınıfların nasıl belirlendiğine dair çeşitli formüller verilmiş. Kısaca sınıfların sayısını biz belirlemiyoruz, bunu algoritma toplam sınıf sayısına göre belirliyor. Bunun yanında candidate sampling metodunu kullanan alt algoritmalar mevcut, bunların her birinde farklı formüller kullanılıyor olabilir.[Link](https://www.tensorflow.org/extras/candidate_sampling.pdfwww.tensorflow.org[Link](https://www.tensorflow.org/extras/candidate_sampling.pdf) ",
+2.  ->  Bahsettiğiniz dökümanı ben de incelemiştim ama orada class ların seçilme probabilitysi ile ilgili formüller var, kaç adet seçildiğine dair herhangi bir bilgi yok. Sizin gördüğünüz bir kısım varsa paylaşabilirseniz sevinirim. Teşekkürler.",
+3.  ->  Net bir biçimde belirtmemiş olsalarda kaç adet seçildiğini bu formülün ifade ettiğini düşünüyorum. (Ci = Ti ⋃ S) Burada Ci: Adaylar Kümesi (Küme elemanı sayısı kadar rastgele sınıf seçiliyor), Ti: Hedef Sınıflar, S: Diğer Sınıflar olarak belirtilmiş. Anladığım kadarı ile açıklamaya çalıştım, zira bende sizinle beraber öğreniyorum umarım yardımı dokunmuştur, ben teşekkür ederim",
+4.  ->  Anladım, benim gözümden kaçan bir kısım olabilir, varsa paylaşabilir misiniz anlamında sordum. Bahsettiğiniz kısıma tekrar bakacağım. Yardımlarınız için çok teşekkürler. İyi çalışmalar 🙂",
+5.  Normalde multi- class problemlerde modelimiz her mumkun sinifin olasiligini hesapliyor.Ancak candidate sampling sirasinda sadece iliskili olan siniflarin olasiligini hesaplayip karar veriyor.Bir ornek verecek olursak siniflarimiz agac, kalem, masa, kopek, kedi, kamyon ve tir olsun. Biz modelimize kamyon resmini verip siniflandirmasini istedigimizde ilgisiz siniflarin olasiligini hesaplamakla ugrasmayip kamyon ve tiri hesaplayacaktir.Hangi siniflarin gozonune alinacagina modelimiz karar verecek ve gozonune alacagi class sayisi classlarin birbiriyle icinde bulundugu yakinliga ve bizim modele neyi verdigimize gore degisir.",
+6.  ->  Paylaşım için teşekkürler 🙏 Peki bahsettiğiniz örnekte tırın yanında köpeği almaması gerektiğine nasıl karar veriyor, classların birbirine yakınlığını nasıl hesaplıyor ve thresholda nasıl karar veriyor, neden köpeği de dahil etmiyor? Onun dışında training işleminde ilk sample ı eğittiğini düşünün, hiçbir class ın weigthleri belirli değil, kamyon için bir tane tır class ı ile softmax yapacağına nasıl karar veriyor? Sizin bahsettiğiniz random candidate sampling olmuyor gibi, doğrudan candidate seçiyorsunuz.",
+7.  -> Verdigim ornek senin icin kafa karistirici olmus gibi gorunuyor.Ornegi degistirelim.Mesela siniflar hayvanlar olsun.Kedi, maymun, zurafa, fil, guvercin, kopek, muhabbet kusu.Kus resmi verdigimizde guvercin ve muhabbet kusu icin olasilik hesaplayacak.Digerleriyle ugrasmayacak.Mantigi bu ancak teknik olarak neyin nasil oldugunu anlamak icin modelin mimarisini gormeliyiz.GIthub a baktim bir iki ornek bulabilir miyim diye bulamadim.Konuyla ilgilisin gordugum kadariyla iyi bir ornek bulursan modeli beraber aciklamaya calisiriz.Bu arada upsampling ya downsampling gibi kavramlar bildik kavramlar ancak candidate sampling enteresan ybir kavram benim icin. de.",
+
+### soru 
+
+> quest "Merhaba Arkadaşlar, Backpropagation'un hata caselerinin birisi olan \"Dead ReLU Units\" i anlayamadım. Yardımcı olur musunuz? Teşekkürler",
+
+> comments: 
+
+1.  ReLu fonksiyonunun doğası gereği negatif girdi değerleri sıfır çıktısını üretiyor. Bu durum ReLu için negatif girdi olacak olan ağırlıklı özelliklerin toplamının modele hiç bir katkıda bulunmamasına sebeb oluyor dolayısıyla geri yayılım algoritması gradient hesabı süresince bu girdi değerleri üzerinden bir akış sağlayamıyor. Çünkü sıfırın türevi yine sıfırdır. Bu durumu çözmek için daha küçük bir öğrenme katsayısı veya \"Leaky ReLu\" aktivasyon fonksiyonu kullanılabilir. Leaky ReLu'nun orjinalin ReLu'dan farkı negatif değerler içim direk sıfır çıktısı üretmeyip, nispeten sıfıra yakın fakat sıfır olmayan çıktılar üretmesidir. Böylece ağırlıklı toplamları negatif olan özelliklerin de azda olsa modele bir katkısı olabiliyor. Umarım yardımı dokunur. İyi çalışmalar.",
+2.  ->  Learning rate i degistirmek Dead RELU units sorununu cozmez.",
+3.  -> ",
+4.  Ders içeriğinde en altta böyle bir açıklama yapılmış",
+5.  ->  Dead RELU Unit sorunu activation functioni degistirerek cozulebilir.Ilk akla gelenler sigmoid ya da tanh activation functions.Tabiki bunlarda neuronlar olmesede vanishing gradients ya da exploding gradients problemleriinden kurtalamayacagiz.Leaky RELU cozum olabilir.Yada Leky RELU nun gelistirilmis sekli olan SELU kullanilabilir.Yalniz SELU yu lecun_normal initialization ve Alpha Dropout ile kullanmalisiniz.4,
+6.  ->  İnternet üzerinde birden fazla kaynakta learning rate'in dead relu için çözüm olabileceği yazılmış. Learning rate'in weightleri güncellemeye doğrudan etkisi bulunduğu açık bir durum. Bu noktada düşük bir güncelleme oranının ağırlıklı toplamların belli bir seviyenin üstünde olmasına, dolayısıyla sıfırın altında negatif değerlere düşmesini engelleyebileceğini düşünüyorum.",
+7. Merhabalar,Bildiğimiz gibi relu nun esprisi önceki katmandan gelen input sıfırdan büyükse o inputu doğrudan bir sonraki katmana aktarıyor, sıfırdan küçükse sıfır çıkışı veriyor yani sonraki katmana bir çıkış vermiyor.Eğer olur da training sırasında reluya önceki katmandan gelen input değeri sıfırın altına düşürse relu sonraki katmana çıkış vermiyor. Çıkış vermediği için de final outputta o relu nöronunun bir etkisi olmuyor. Weightleri update etme işlemi back propagation ile yapıldığı için (output katmanından başlanıp türev alınarak katmanlardan geriye doğru weightler update ediliyor) ve çıkış vermeyen relunun outputta hiç etkisi olmadığı için back propogation işleminde o relu nöronunun sonrasındaki ve öncesindeki weightler hiç değişmiyor, değişmediği için de ona gelen input değeri sıfırdan küçük kalmaya devam ediyor, bu yüzden de nöron hiç çıkış veremiyor. Böylece o nöron sonraki iterasyonlarda hep ölü kalıyor :)Çözüm olarak learning rate i azaltabilirsiniz deniyor.4 weeks ago 9 people like this.Like ReportReply",
+8.  Teşekkürler arkadaşlar değerli bilgileriniz için. İyi çalışmalar.",
+
+### soru 
+
+> quest "Merhaba , Neural Networks kısmında ki playground exercises bölümündeki A First Neural Network alıştırmalarını tam anlayamadım. Yardımcı olur musunuz 🙂",
+> comments: 
+
+1.  Merhaba Duygu, bu alistirmalarda neuron sayilarini ve hidden layer sayilarini arttirip azaltarak farkli activation functions lari sectigimiz ya da secili dataya gore degistirerek, L1 veya L2 regularizasyon tekniklerini deneyerek gozlem yapiyoruz.Oyun gibi.Degerleri degistir, farkli kombinasyonlari dene ve gozlem yap.",
+2.  Tamamdır teşekkür ederim 🙂",
+3. Merhaba,Neural Networks bizim daha komplike nonlinear modelleri eğitmemizde kullanılır. Neural networks'te input ve output layerları arasında koyacağımız hiddden layerlar vardır. Bu layerlar isteğimize göre activation layer yani nonliner işlem yapan layerlar olabilir. (Bir layerda nodelar -neuron diye de geçebilir- bulunur ve bunodeların lineer mi non lineer mi olduğunu seçebilirsiniz. Activation layer içideki inputla output arasında matematiksel köprü gören bir layer diyebiliriz.) Activation layer'daki nodelar ReLU, Sigmoid benzeri fonksiyonlardır ve lineerliği nonlineerliğe çevirebilir. Böylece daha karmaşık veri dağılımlarına sahip bir eğitim setini öğrenebilir.Task 1: Modelimizde lineer olan hidden(input ve output layer'I arasında kalan her layer) bir layerımız var. Bu model doğal olarak hiçbir nonlinearity öğrenemez ve veri dağılımı daha komplike olan eğitimleri efektif gerçekleştiremez.Task 2: Burada hidden layer'daki nöron sayısını arttırmanız bir anlam ifade etmeyecektir çünkü yine nonlinearlığı sağlayamıyorsunuz.Task 3: Burada hidden layerımızdaki nöron sayısını arttırıp 3 yapmamız ve activation function olarak ReLU kullanmamız modelimizi lineerlikten çıkarıp nonlineerliğe sokacaktır.(Burada 3 nöronun XOR işlemi yaptığından bahseder. 1. nöron x1 değerini düzlemde ayırır, 2.nöron x2 değerini düzlemde ayırır, 3.nöron ise bunların arasındaki ilişkiyi belirler.) Burada verilerin nondeterminisitk olması sebebiyle her çalıştırma esnasında aynı sonucu elde edemeyiz. Ancak burada nonlineerliğe erişmek sadece bir başlangıç. Bu nonlineerliği modelimizin hatalarını minimize edecek şekilde efektif olarak bulmalıyız. Burada layer arttıkça modelimiz daha komplike işlemleri gerçekleştirip modelimizi daha komplike hale getirir. (Modelimiz komplike oldukça overfitting riski artar) Şu anda tek hidden layerımız var ve bu layerdaki 3 nöron lineer inputlarımızın toplam ağırlıklarının ReLU fonksiyon değerini hesaplar.Task 4: Burada hidden layer ve bu layerlara nöron ekleyerek optimum lossu sağlayacak modeli oluşturmamızdan bahsediyor. Burada bilmemiz gereken şey hidden layer arttıkça problemimizin outputunun daha da komplike olacağıdır. Activaton Layerlar'daki nöronlardan her biri bir önceki layerda hesaplanmış olan toplam weight değerlerini alıp o değerleri akyivasyon tipi ne ise (sigmoid, lineer, ReLu vs) o işleme tabi tutmaktadır. Modelimizde kullandığımız layerlar ve içindeki nodelar sayesinde modelimizin bir çok şekli göz önünde bulundurmasında yardımcı olduk. (Şekilden kastımız düzlemde verileri ayırırken oluşan şekil.) Bu bilgileri kullanarak hidden layer ve bu layerlardaki nöron sayılarımızı azaltıp/Arttırarak optimum modelimizdeki hidden layer, nöron sayıları ne olur?İyi çalışmalar.4 weeks ago 9 people like this.Like ReportReply",
+4.  Anladım teşekkür ederim 🙂",
+
+### soru 
+
+> quest "Arkadaşlar Merhaba,   Sigmoid activation function ile ReLU arasında farkı tam olarak anlayamadım. Yardımcı olabilir misiniz? Teşekkürler.",
+
+> comments: 
+
+1. Merhaba,Neural Network'te non-linear işlemleri activation fonksiyonları yardımıyla yaparız sigmoid ve ReLU iki farklı aktivasyon fonksyonudur.Sigmoid fonksiyonumuzu bir ihtimal elde etmeye çalışırken kullanıyoruz çünkü çıkacak output değerimiz 0-1 arasındadır.ReLU'da ise eğer değerimiz negatif ise bizde dönecek ReLU değeri 0 olur, eğer pozitif ise sayının kendisini döndürür. Yani pozitifse inputu olduğu gibi output üzerinden döndürür.ReLU'nun daha çok tercih edilmesinin sebebi:-Sigmoid backpropagation esnasında modelimizin vanishing gradient sorununu yaşamasına neden olabilir çünkü her adımda hatamızı önemli ölçüde azaltır.Vanishing gradient inputa yakın olan nöronların weight değerlerinin çok küçük olması demektir ki bu da ilgili layeırın çok yavaş veya hiç eğitilmemesine yol açar.- Büyük nöral networklerde sigmoid'e göre daha hızlıdır.Ancak ReLU'da negatif x değerinin sıfıra eşitlenmesi ReLU'nun negatif değerleri çok iyi maplemeyip eğitemediği anlamına gelir.İyi çalışmalar.1 month ago 7 people like this.Like ReportReply",
+2.   İlk fark ReLU'nun Sigmoide göre daha az hesaplama gerektirmesi. İkinci fark Sigmoid fonksiyonunun gradient tabanlı modellerde Gradient Vanishing diye adlandırılan bir probleme sebep olması. Bu problemin sebebi Sigmoidin yüksek değerli negatif ve pozitif inputlarda (weightler) düşük türev değerlerine sahip olması. İnputlar yüksek değere sahip olmasa bile layerlarda aktivasyon fonksiyonu olarak Sigmoid kullanırsak layer sayısı arttıkça yine Sigmoidin türev değerlerinin küçük olmasından dolayı değerler gittikçe küçülüp anlamsızlaşacak. ReLU'da Gradient Vanishing problemi olmadığı için tercih ediliyor. Fakat ReLU'da da negatif değerlerde 0 değeri verdiği için weight kaybı oluyor. Eğer olur da bir çok negatif weightimiz olursa bir çok kayıp oluyor. ReLU'nun bu sıkıntısı için de Leaky ReLU diye adlandırılan bir fonksiyon tercih ediliyor :D. Aşağıdaki grafik Leaky ReLU'ya ait.1 month ago 7 people like this.Like ReportReply",
+3.   Sigmoid ve türevinin grafiği:1 month ago 5 people like this.Like ReportReply",
+4.  Oncelikle activation functioni matematiksel bir gecis kapisi ya da esik gibi de dusunebilirsin.Diyelimki 10 tane layerimiz var.Her birinde 10 tane neuron olsun.Ilk layerimiza inputlarimizi girdik.Bunlar weight degerleriyle carpiliyor ve activation function dan elde ettigimiz outputlar bir sonraki layerin noronlarina input olarak aktariliyor. Sigmoid ve Relu non linear activation fonksiyonlardir.Her ne kadar RELU nun grafigi linear gibi gorunsede non-lineardir.Non linear activation functions arificial neural network ve deep neural network te kullanilir.Bunun sebebi turevleri vardir ve bu durum backpropagationa olanak saglayarak ogrenmeyi gerceklestirir..Linear bir functionin turevi bir sabittir dolayisiyla neural networku tek bir layer a donustureceginden kullanilmaz..Sigmoid binary classification yapmak icin logistic regression da kullanilir.Softmax ise sigmoid in ozel bir halidir.Cok onemlidir.4 weeks ago 9 people like this.Like ReportReply",
+5.  Yardımlarınız için çok teşekkürler arkadaşlar.4,
+
+### soru
+> quest "Merhabalar , ben Mentorlarımıza şunu sormak istiyorum. Bu kursa hergün 1 saatte bakılabilir veya 1 gün de 1 haftalık konular da bitirilebilir  saçma gelebilir ama siz bu olayı iş olarak yapıyorsunuz ve günlük nasıl bir çalışma düzeniniz var. Bir öneri sorusu olarak soruyorum sadece kurs için değil günlük hayatta iş olarak yaptığınız için soruyorum Verimliliği arttırmak adına nasıl bir yol önerirsiniz ya da siz nasıl bir yol izliyorsunuz kaç saatinizi hangi konuya ayırıyorsunuz ?",
+> comments: 
+    "",
+1.  bende şunu merak ediyorum detaylarla uğralırken çokzaman harcıyorum bu seferde normalden çok geri kalıyorum alt yapı eksikliğimde var bize bi yol gösterin lütfen4,
+2.  Merhabalar,Nacizane kendi fikrimi belirtmek istersem sadece bu konuda değil hayatınıza tatbik edeceğiniz her iş için önerim şu olurdu. \"Taşı Delen Suyun Gücü Değil, Damlaların Sürekliliğidir\".Saygılarımla",
+
+### soru
+
+> quest "Merhabalar, sanırım sitedeki bir değişiklikten dolayı sorularım kendi profilimde paylaşıyormuşum hep, dolayısıyla görünmediği için cevap alamadım. Bazılarını kendim hallettim fakat bazılarını hala anlamış değilim.  Yorumlara ekliyorum.   Şimdiden teşekkür ederim..",
+
+> comments: 
+
+1. L1 ve L2 regularizationu kafamda tam oturamıyorum. Ama anladım yüzeysel olarak...** Mesela regularization sparse kısmının exercise kısmında işaretlediğim değeri L1 neden sıfırlamamış, yanındaki weightte sıfırlama olmuş. Sanırım anlamadım :/.",
+2.  -> Merhaba,L1 regülarizasyonu weight değerlerini sıfırlar. her adımda weight değerinden sabit bir değeri çıkarır. Gereksiz feature değerlerinin (genelde sparse matrixteki 0 olan featuerları düşünebilirsiniz) weight oranlarını sıfırlarıp onları yok etmek için kullanılır.L2 regülarizasyon overfit olmayı önlemek için vardır ve weight değerlerini sıfırlamaz. Çünkü weight değerlerini sıfırlarsa o weight'e bağlı feature'ı da yok etmiş olur.1 month ago 4 people like this.Like ReportReply",
+3.  ->  Sadece L2 degil, L1, L2 ve Dropout her ucu de overfitting probleminin onune gecmek icin uygulanan regularization tekniklerdir.L1 i L2 ile karsilastirirsak, L2 weightslerin degerini cok kucultur ve bir kismini ihmal ederken, L1 weightsleri sifir yapar, daha radikaldir.Bunun icin cok genis datasetleriyle kullanmak yerinde olacaktir.Tensorflow dan emin degilim ancak Keras L1 ve L2 yu birlikte kullanmayi mumkun kiliyor.Hatta birde Dropout bile ekleyebilirsin ancak beraber kullanilmasi tavsiye edilmez.Regulerize edelim derken cok fazla feature kaybetmek istemeyiz..",
+4.  ->  evet pratikte baktığınız zaman hepsi weight değerlerini düşürdüğü için overfiti önleyen bir seçenektir. Burada dikkat çekmek istediğim nokta L2 regülarizasyonunun feature kaybı olmadan regülarize etmesi, L1 regülarizasyonunun ise gereksiz feature değerleirni sıfırladığıydı. Bilgilendirme için teşekkür ederim.İyi çalışmalar.4 weeks ago 4 people like this.Like ReportReply",
+5. -> Yukarida ben de Fethi de L1 ve L2 hakkinda birseyler soyledigimizi ama senin sorunu cevaplamadigimizi farkettim.Aslinda 2 soru var.Neden 0.39 olan weight degerini sifirlarken 0.37 degerini sifirlamayip 0.31 e indirgemis ? Oncelikle L1 in degeri kucuk olan etkisi az olan weightsleri sifirlamasini bekliyoruz.Ancak ya weightslerin cok buyuk kisminin degeri kucukse o zaman hepsini sifirlayacak mi? Hayir.Belli bir kismini, modelin ezberlemsinin onune gececek kadar olanini sifirlasa yeter.Dropout da bu orani belirliyorsun.Mesela diyorsun ki % 50 sini etkisiz hale getir.Demekki ilk olarak bazi dusuk degerli weightslerin kalmaya devam etmesi normal.Peki eger dusuk degerli bir weight kalacaksa kotunun iyisi olsun yani dusuk degerlilerin en buyuk degerlisi kalmali dusuncesi mantikli geliyor.Dolayisiyla neden L1 in hepsini sifirlamadigini anliyoruz ancak neden sifirlamak icin 0.37 degerini degil de 0.39 u sectigini tam olarak anlayamiyorum.Belki soyle dusunebiliriz.Birbirinee cok yakin degerler dolayisiyla birini secmis. diyebiliriz:)",
+6. ->  Evet aslında iki soru vardı bir de resimli olarak sormuştum 🙂 Ama benim soruş tarzımla alakalı anlayamamış olmanız çok normal, karışık sormuşum ikinize de ayrı ayrı cevaplarınız için çok teşekkür ederim. şimdi daha iyi oturdu kafamda... -> ",
+7.  Merhaba. Buradan sormak daha doğru geldi. Peki L1 ve L2 Düzenlemelerinin hangilerini hangi datasetlerde kullanmak daha mantıklı? Yani şöyle diyebilir miyiz; eğer datasetiniz büyük, ayrık verileri içeriyor, çoğunluğu 0 ise L1 düzenleme kullanın",
+8.  ->  Oncelikle L1, L2 ve Dropout cok katmanli neural network lerde overfitting i engellemek icin kullaniyoruz.Eger datasetin buyukse den ziyade soyle ifade etmek istiyorum:Feature larinin sayisi fazla ise L1 ile bunlarin bir kisminin gitmesinde cok sakinca yok geriye hala yeteri kadar feature kalacaktir diye dusunebilirsin.Ama sunu bilmelisin L1 in sifirladigi feature lari kaybediyorsun.Ancak L2 bu feature lari zero yapmiyor sadece daha da kucultup ignore ediyor.Dolayisiyla L2 daha guvenli gorunuyor..Multi Class programing orneklerinde MNIST dataseti icin verilen ornek uzerinde regulator lari degistirerek sonuclari karsilastirabilirsin.",
+9.  ->  Teşekkür ederim",
+10. AUC eğrisi çizilirken farklı Thresholds değerleri alınarak çiziliyor. Peki, buradaki koda baktığımızda bu kısmı oluşturan kod blogu hangisidir? (Classification Programlama Egzersizi Kısmında Son Task).",
+11.  -> Merhaba,tf.keras.metrics.AUC metodunda auc u hesaplamak içn kullanılan True Positive, True Negative, Falpse Positive ve False Negative değerleri oluşturuluyor. Bu threshold sayısını da num_of_thresholds parametresi belirliyor. Thresholdlar auc metodu tarafından otomatik belirlendiği gibi thresholds parametresiyle de siz belirleyebilirsiniz.Kaynak: [Link](https://www.tensorflow.org/api_docs/python/tf/keras/metrics/AUCİyi çalışmalar.tf.keras.metrics.AUC  |  TensorFlow Core v2.1.0www.tensorflow.org[Link](https://www.tensorflow.org/api_docs/python/tf/keras/metrics/AUC1 month ago 3 people like this.Like ReportReply",
+12. 3- Yine regularization playground exercise kısmında weight değerlerine baktığımızda sorulara cevap verirken kafam karıştı (-) değerlerden dolayı, yani eksi olan weight değerlerinin artıp azalması ile alakalı - değerden 0'lanması ya da 0'a yakınsaması acaba azalma olarak mı değerlendiriliyor? Bir yeri kaçırdım galiba.",
+13.  -> Merhaba,Weightler azaldığında veya arttığında durumundan ziyade en optimum weight değerlerinde modelimiz efektif çalışır. Weight değeri sıfıra yakınsarsa bu weighte bağlı feature değerinin modelimizde o kadar az etkisi olur.Sorunuzu yanlış anladıysam beni aydınlatın lütfen.İyi çalışmalar.1 month ago 4 people like this.Like ReportReply",
+14.  -> Merhabalar,(-) weight değerleri 0'a yakınsarken değerleri artmaktadır. Bu matematiksel olarak böyledir. Ancak weightler için negatif veya pozitif olmaları farketmeksizin 0'a yakınsadıkça etkinlikleri azalır. Burada negatifliği, etkinin yönü olarak düşünebilirsiniz.Dolayısıyla sorunuzun cevabı da (-) değerli bir weight'in 0'a yakınsaması etkinliğinin azaldığının göstergesidir.Edit: ->  uyarısı üzerine, ilk cümleden \"mutlak\" kelimesi çıkarıldı.İyi çalışmalar.1 month ago 3 people like this.Like ReportReply",
+15.  ->  Matematiksel olarak negative degerler 0 a yaklastikca mutlak degeri artmaz,0 dan uzaklastikca mutlak degeri artar..",
+16.  ->  Teşekkürler, yazarken dikkatsizliğime gelmiş..",
+17.  ->  Rica ederim 🙂.",
+18.  Eger weights leri hesaplarken kullandigimiz formulu gozonune alirsak weight degerinin negative olmasi, bir onceki weight degerinin yani formuldeki eski, update edilmemis weight degerinin learning rate ile loss degerinin carpimindan kucuk olmasi demektir.Bu durum bizi su soruya goturuyor.Negative weight degerinden sonra update edilen weight degerleri hep negative mi olur? Evet deseydik, loss degerinin her zaman pozitif bir deger oldugunu soyluyor olurduk ki loss negative olabilir.ornek:Negative Log Loss1 month ago 2 people like this.Like ReportReply",
+19. L2'den L1'e geçişi yorumlayamadım aslında... Şu kısım.. ->  ->  ->  (-) değerler kafamı karıştırdı.. (-) değerden 0'a yakınsamış, etkinlik azaldı dememiz mi gerekiyor sonuç olarak.",
+20.  L1 regülarizasyonunda siz weight değerinizin mutlak değerinden bir k sabiti çıkarırsınız bu da L2 regülarizasyonuna göre daha çabuk 0'a yakınsaması demek. Mutlak değerden k sabiti çıkardığımız için negatiflik pozitiflik L1 regülarizasyonunda fark oluşturan bir etmen değildir yani negatiften yakınsaması ile pozitiften yakınsaması arasında etkinlik farkı yoktur.Dolayısıyla L2'den L1'e geçerseniz öğrenilen tüm ağırlıklar azalır. Bunun yanında L2'den L1'e geçiş test kaybı ve eğitim kaybı arasındaki aralığı da oldukça azaltır.L1 regularization rate'inin arttırılması öğrenilen weight değerlerini azaltır ancak, düzenlenme oranı çok yükselirse, model yakınsama yapamaz ve buna bağlı olarak loss değerleri çok yüksek olur.1 month ago 2 people like this.Like ReportReply",
+21. çok teşekkür ederim",
+
 ### soru 
 
 > quest": "Merhaba Grafiği yorumlamakta güçlük çektim yardımcı olursanız sevinirim.  3 çizgi neyi temsil ediyor x ve y eksenleri açıklanmış. -7 olarak tahmin edilmiş ortalama skor aslında datada -8 e mi denk geliyormuş ? bunu anlamlandıramıyorum bu benim için ne ifade ediyor eksenlerin logaritmik oldugu söylenmiş fakat herhangi logitmik artışta göremiyorum belkide gözden kaçırıyorum. Bu kötü sınıflandırmaya ait bir grafikse iyi bir sınıflandırmaya grafigi neye benzemeliydi teşekkürler."
