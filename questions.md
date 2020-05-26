@@ -163,7 +163,7 @@ x
  2. ->  ->  Evet haklısın, bir çocuğa fizikçiler data setinden random bir şekilde fizikçi resimleri göstersek halihazırda erkek fizikçi yüzdesi daha fazla olduğu için ona karşı bir bias geliştirebilir. Yani günümüzdeki mevcut durumda çocuğun bias geliştirmemesi için data setini manipüle etmemiz(yani kadın fizikçileri daha görünür yapmamız) gerekebilir. Bu anolojinin makine öğrenmesindeki karşılığı ne olur ya da sağlıklı bir anoloji olur mu emin değilim. Gerçekten 
     ucu açık bir konu
 
- 3.  ->  ->  Bunu da izlemenizi tavsiye ederim [Link](https://www.youtube.com/watch?v=jEcDzHYonLU) 4.3 Discrimination / Bias - [AI For Everyone | Andrew Ng]www.youtube.comAI For Everyone lectures by Andrew Ng and our own Learning Notes. playlist [Link](https://www.youtube.com/playlist?list=PLuyk1nLMhRm5aV6_eeUIuj_MKEekvwGDR3) 
+ 3.  ->  ->  Bunu da izlemenizi tavsiye ederim [Discrimination / Bias ](https://www.youtube.com/watch?v=jEcDzHYonLU) playlist [Link](https://www.youtube.com/playlist?list=PLuyk1nLMhRm5aV6_eeUIuj_MKEekvwGDR3) 
 
  ## soru
 
